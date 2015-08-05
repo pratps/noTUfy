@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content" android:layout_height="wrap_content"
+    android:layout_margin="3dp"
+    android:id="@+id/society_main"
+    android:background="@drawable/card">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/society_icon_rel">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/placeholder"
+        android:id="@+id/society_icon"
+        android:adjustViewBounds="true"
+        android:background="#ffffff"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#000000"
+            android:layout_centerInParent="true"
+            android:layout_alignParentTop="true"
+           android:layout_alignBottom="@+id/society_icon"
+            android:alpha=".6"
+            android:visibility="gone"
+            android:id="@+id/society_select"
+            >
+
+        <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/ic_action_accept"/>
+            </RelativeLayout>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="7dp"
+        android:id="@+id/nameinfo"
+        android:layout_below="@+id/society_icon_rel"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Creative Computing Society"
+            android:textColor="@color/button_material_dark"
+            android:layout_alignParentLeft="true"
+            android:id="@+id/society_name"
+            android:textSize="@dimen/abc_text_size_small_material"
+            android:textStyle="bold"
+            android:layout_toLeftOf="@+id/info_button"
+            />
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_action_about"
+            android:background="@android:color/transparent"
+            android:layout_alignParentRight="true"
+            android:id="@+id/info_button"
+            android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+
+
+
+
+
+
+
+</RelativeLayout><!-- From: file:/D:/notufy/app/src/main/res/layout/society_bean.xml -->

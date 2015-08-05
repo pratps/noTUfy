@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:padding="7dp"
+    android:background="@drawable/card"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        >
+
+
+
+        <ImageView
+            android:layout_width="50sp"
+            android:layout_height="50sp"
+            android:layout_margin="10dp"
+            android:scaleType="fitCenter"
+            android:id="@+id/teacher_icon"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/teacher_icon"
+                android:orientation="vertical"
+                android:layout_margin="5dp"
+                android:layout_centerVertical="true">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/teacher_name"
+                    android:textStyle="normal"
+                    android:textColor="#123421"
+                    android:textSize="@dimen/abc_text_size_medium_material"
+                    android:text="Prateek Sharma"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="italic"
+                    android:text="20th Jan, 2015 3:20pm"
+                    android:textColor="#A4A4A4"
+                    android:textSize="12sp"
+                    android:id="@+id/datetime"/>
+            </LinearLayout>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/info"
+            android:padding="5dp"
+            android:text="Jupiter se aaya mera dost, dost ko salaam karo"
+            android:textColor="@color/material_blue_grey_800"
+            android:textSize="15sp"
+            />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/attachment_image"
+        android:padding="3dp"
+        android:id="@+id/attach"
+        android:layout_margin="5dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_margin="5dp"
+            android:id="@+id/attach_image"
+            android:src="@drawable/ic_action_attachment"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/attach_image"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/attach_image">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/file_name"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="File Name"
+            android:textAllCaps="true"
+            android:textColor="#000000"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/file_size"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="10dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="128KB"
+            android:textColor="#000000"
+            android:layout_below="@id/file_name"
+            />
+        </RelativeLayout>
+        </RelativeLayout>
+
+
+</LinearLayout><!-- From: file:/D:/notufy/app/src/main/res/layout/layout_teacher.xml -->

@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\notufy\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="00b0b7233e1ec64acebfac40d4983d32d4712426">
+        <dex dex="D:\notufy\app\build\intermediates\pre-dexed\debug\classes-eb5ec234870dc12c967062fbd8c8b62ae2a8471d.jar" />
+    </item>
+    <item
+        jar="D:\notufy\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
+        <dex dex="D:\notufy\app\build\intermediates\pre-dexed\debug\classes-66a5ae6b2bc3f561e78feb7dbe8ea9ad16e919d3.jar" />
+    </item>
+    <item
+        jar="D:\notufy\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="fb04b12526b0073c7fb1ebb70c5842d82ee95596">
+        <dex dex="D:\notufy\app\build\intermediates\pre-dexed\debug\classes-501401f72a7da04bb17e6f9e17932329569555dd.jar" />
+    </item>
+    <item
+        jar="C:\Users\prat\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="D:\notufy\app\build\intermediates\pre-dexed\debug\library-2.4.0-f8e61942fd1dc3206fa146861050adfb8b3c0167.jar" />
+    </item>
+    <item
+        jar="D:\notufy\app\build\intermediates\exploded-aar\com.sothree.slidinguppanel\library\3.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="c1200ab3b93b8f42c0878b00eb79a84c1f112cf7">
+        <dex dex="D:\notufy\app\build\intermediates\pre-dexed\debug\classes-0f2f2df3f308dd92a1a57ba53069c2971ec39beb.jar" />
+    </item>
+    <item
+        jar="D:\notufy\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ef5f051e7308febe289dc93c67c5f32785b4260a">
+        <dex dex="D:\notufy\app\build\intermediates\pre-dexed\debug\classes-51bec2be2229f14c3f8d12445b7539bd9585fd3a.jar" />
+    </item>
+    <item
+        jar="D:\notufy\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4cd0b093824b3228fffc21ea369b98d0b1db6566">
+        <dex dex="D:\notufy\app\build\intermediates\pre-dexed\debug\classes-f160ed8fbcd5858ce5ae9fb43ba27710927f6fba.jar" />
+    </item>
+    <item
+        jar="D:\notufy\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="c976518693e89ad44fbfccfc654941eaec198d08">
+        <dex dex="D:\notufy\app\build\intermediates\pre-dexed\debug\classes-23095a733c5281b414081087f2c4a4c3f2388640.jar" />
+    </item>
+    <item
+        jar="D:\notufy\app\build\intermediates\exploded-aar\org.jraf\android-switch-backport\1.4.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="5be6154ea591aedafe737f93b365818681a9e305">
+        <dex dex="D:\notufy\app\build\intermediates\pre-dexed\debug\classes-9b43a0794ba48bfe95efe5319387f4314de7fa1b.jar" />
+    </item>
+    <item
+        jar="D:\notufy\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="3033cc3a2c68dff3e5b646d6d084bdbdf7d00b25">
+        <dex dex="D:\notufy\app\build\intermediates\pre-dexed\debug\classes-056dde95be8d25f72c20fc716a038650e5e72fc7.jar" />
+    </item>
+    <item
+        jar="D:\android\adt-bundle-windows-x86_64-20140702\sdk\extras\android\m2repository\com\android\support\support-annotations\22.0.0\support-annotations-22.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
+        <dex dex="D:\notufy\app\build\intermediates\pre-dexed\debug\support-annotations-22.0.0-16f08de520ce1171b8353778a3a307d2749519b7.jar" />
+    </item>
+    <item
+        jar="D:\notufy\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="0e8228b4bc69c6a2c8d7c18498a77e53417d2574">
+        <dex dex="D:\notufy\app\build\intermediates\pre-dexed\debug\classes-cdf24faa2deb6d0500744f3d3149aaed3bfbc453.jar" />
+    </item>
+    <item
+        jar="C:\Users\prat\.gradle\caches\modules-2\files-2.1\com.koushikdutta.async\androidasync\2.1.4\44504f462f292532739c35a624004bd1b0a4385b\androidasync-2.1.4.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="44504f462f292532739c35a624004bd1b0a4385b">
+        <dex dex="D:\notufy\app\build\intermediates\pre-dexed\debug\androidasync-2.1.4-6b0d75941644cc371d5228bbed987507a525393f.jar" />
+    </item>
+    <item
+        jar="D:\notufy\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a08d65794b844d8e7540bf9a33859bf3b2482d7f">
+        <dex dex="D:\notufy\app\build\intermediates\pre-dexed\debug\classes-a77799ae900badb78292653f5864a8f1cd82c3d5.jar" />
+    </item>
+    <item
+        jar="C:\Users\prat\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.3\5fc52c41ef0239d1093a1eb7c3697036183677ce\gson-2.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="5fc52c41ef0239d1093a1eb7c3697036183677ce">
+        <dex dex="D:\notufy\app\build\intermediates\pre-dexed\debug\gson-2.3-2d9793f575993e5874ae81a711de87610260aca7.jar" />
+    </item>
+    <item
+        jar="D:\notufy\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b8945fc23a7461c6fdde15753456d64b0a9358b">
+        <dex dex="D:\notufy\app\build\intermediates\pre-dexed\debug\classes-c5572aeae04462920605fda30e281f37dcb37974.jar" />
+    </item>
+    <item
+        jar="D:\notufy\app\build\intermediates\exploded-aar\com.amulyakhare\com.amulyakhare.textdrawable\1.0.1\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d237556caead5b93d97e18a071059a2c0045978e">
+        <dex dex="D:\notufy\app\build\intermediates\pre-dexed\debug\classes-0b96cd366db1d07d42f8a9e1d4845b8ba2ea71d5.jar" />
+    </item>
+    <item
+        jar="D:\notufy\app\build\intermediates\exploded-aar\com.getbase\floatingactionbutton\1.9.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="f2b8a750df2a5d485d0c40b379b44371c5e6d98d">
+        <dex dex="D:\notufy\app\build\intermediates\pre-dexed\debug\classes-5fb4d8a9e0e744db3aadd995aaea8bf5bbf69d5c.jar" />
+    </item>
+    <item
+        jar="D:\notufy\app\build\intermediates\exploded-aar\com.lsjwzh\materialloadingprogressbar\0.5.4-RELEASE\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="c1c836c3c38972a0be2835a8cd19aaa00aafcbcd">
+        <dex dex="D:\notufy\app\build\intermediates\pre-dexed\debug\classes-62f30d9cfafa3f27d3e08ddb2f69efc16b7c0e46.jar" />
+    </item>
+    <item
+        jar="C:\Users\prat\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="D:\notufy\app\build\intermediates\pre-dexed\debug\picasso-2.5.2-755ffded28f86dccead45ac7fbf6e8f977b1c9aa.jar" />
+    </item>
+    <item
+        jar="D:\notufy\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4c93d99d454c975536bbe3b42283eee847f03ea3">
+        <dex dex="D:\notufy\app\build\intermediates\pre-dexed\debug\classes-1b85854b31c9f9c6d5660afaca029db0847dfd1a.jar" />
+    </item>
+    <item
+        jar="D:\notufy\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="055783146ba9654a725442563be78cad303aad1f">
+        <dex dex="D:\notufy\app\build\intermediates\pre-dexed\debug\classes-63883e7bdb2529aafb3c9be995764e637975af34.jar" />
+    </item>
+    <item
+        jar="D:\notufy\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appstate\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="7ff613bf78ab057293892fdbd4169eda899c89b9">
+        <dex dex="D:\notufy\app\build\intermediates\pre-dexed\debug\classes-a2e5a7ac3912e76f736177712bf14761eaa98a51.jar" />
+    </item>
+    <item
+        jar="D:\notufy\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1c5a76debf0c2857ccad422c4a80ed785982f8df">
+        <dex dex="D:\notufy\app\build\intermediates\pre-dexed\debug\classes-f13f3e41cbb291ab15c1da4b94e3099ac78b01e9.jar" />
+    </item>
+    <item
+        jar="D:\notufy\app\build\intermediates\exploded-aar\com.doomonafireball.betterpickers\library\1.5.5\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="54e685289fe062eaf5f3c9bc2df3b1f48cd562d7">
+        <dex dex="D:\notufy\app\build\intermediates\pre-dexed\debug\classes-b5e15991b5ec81e7e71aaa7e1127c535cf94a45e.jar" />
+    </item>
+    <item
+        jar="D:\notufy\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="3c0b099f9de16b265ecd6122fcb603e7d0d29f90">
+        <dex dex="D:\notufy\app\build\intermediates\pre-dexed\debug\classes-63803ebdd8958b9cb7b6465e3fc714ca29c0490b.jar" />
+    </item>
+    <item
+        jar="D:\notufy\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="9224bc4c54ba95147c7eabd874573763c07cb6be">
+        <dex dex="D:\notufy\app\build\intermediates\pre-dexed\debug\classes-4855c709afd4885d8371aa41049e7a52c9dd165e.jar" />
+    </item>
+    <item
+        jar="D:\notufy\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="17f8750d5c0749e44dd7c54aa390d9c937803825">
+        <dex dex="D:\notufy\app\build\intermediates\pre-dexed\debug\classes-ce866b60cc93a32aaa5d17d78f44da29d33b07f1.jar" />
+    </item>
+    <item
+        jar="D:\notufy\app\build\intermediates\exploded-aar\com.rengwuxian.materialedittext\library\2.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="052802ed198178e7133de387fbc87d3f2998482a">
+        <dex dex="D:\notufy\app\build\intermediates\pre-dexed\debug\classes-b22c585f5385626547647b86f2012a5b5842b246.jar" />
+    </item>
+    <item
+        jar="D:\notufy\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="41b3870cbe5fa546d8095b5b89d42cb69f3dd175">
+        <dex dex="D:\notufy\app\build\intermediates\pre-dexed\debug\classes-fed040de47e9f107d75d33b38226d6c486702b59.jar" />
+    </item>
+    <item
+        jar="D:\notufy\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="73ccb92b70112f2e463e415ef8d7275de7da6516">
+        <dex dex="D:\notufy\app\build\intermediates\pre-dexed\debug\classes-de9e80d83d588888d339250f09c1641555c77c9f.jar" />
+    </item>
+    <item
+        jar="C:\Users\prat\.gradle\caches\modules-2\files-2.1\com.koushikdutta.ion\ion\2.1.4\512ec0f8e4ef42178afaa25e3e78c4b990be9b61\ion-2.1.4.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="512ec0f8e4ef42178afaa25e3e78c4b990be9b61">
+        <dex dex="D:\notufy\app\build\intermediates\pre-dexed\debug\ion-2.1.4-361195665557d648e2015c0fef98f2a224b2ecb3.jar" />
+    </item>
+    <item
+        jar="D:\notufy\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="29fd6d3794b71491c2789708cd8d03c71feb8954">
+        <dex dex="D:\notufy\app\build\intermediates\pre-dexed\debug\classes-bb8401a86d7d0e7afc5ab0872c61028a00fbb1bc.jar" />
+    </item>
+    <item
+        jar="C:\Users\prat\.gradle\caches\modules-2\files-2.1\com.loopj.android\android-async-http\1.4.5\77bf7cacf9cefe19dc105e5425d2eb1bb5285881\android-async-http-1.4.5.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="77bf7cacf9cefe19dc105e5425d2eb1bb5285881">
+        <dex dex="D:\notufy\app\build\intermediates\pre-dexed\debug\android-async-http-1.4.5-7f5f50bf3417cf7234117804be235365f5de73cb.jar" />
+    </item>
+    <item
+        jar="D:\notufy\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a96b762bde4139de855735f175ec4d17dca55a6d">
+        <dex dex="D:\notufy\app\build\intermediates\pre-dexed\debug\classes-4985293e63bebec29952783f6cd5e250f436017c.jar" />
+    </item>
+    <item
+        jar="D:\notufy\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="D:\notufy\app\build\intermediates\pre-dexed\debug\classes-6b5050e23430498c606777790b379cddce098c3d.jar" />
+    </item>
+    <item
+        jar="D:\notufy\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e3d791b42eaa90416cd0b2d2e608092794a3baa4">
+        <dex dex="D:\notufy\app\build\intermediates\pre-dexed\debug\classes-84cf8c0238b23bd2703313a019085be9e8f8874f.jar" />
+    </item>
+    <item
+        jar="D:\notufy\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\libs\internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
+        <dex dex="D:\notufy\app\build\intermediates\pre-dexed\debug\internal_impl-22.0.0-2d7fbf27f498a338acbaee3e4269b7ec895bf082.jar" />
+    </item>
+
+</items>

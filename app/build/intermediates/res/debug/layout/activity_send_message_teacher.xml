@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@color/background_floating_material_light">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_above="@+id/sendmessage"
+        android:id="@+id/scroller">
+
+
+
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    >
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:inputType="text|textMultiLine"
+        android:ems="10"
+        android:id="@+id/info"
+        android:textColor="@color/material_blue_grey_800"
+        android:background="@drawable/card"
+        android:minLines="5"
+        android:lineSpacingExtra="10dp"
+        android:gravity="top"
+        android:textColorHint="#7f7f7f"
+        android:text=""
+        android:layout_marginTop="10dp"
+        android:hint="Your message goes here"
+        android:layout_centerHorizontal="true" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="5dp"
+        android:background="@drawable/attachment_image"
+        android:id="@+id/attachment"
+        android:layout_below="@+id/info">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/attach_image"
+            android:layout_margin="10dp"
+            android:src="@drawable/ic_action_attachment"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:layout_margin="10dp"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/attach_image"
+            android:layout_toEndOf="@+id/attach_image"
+            android:textSize="@dimen/abc_text_size_medium_material"
+            android:id="@+id/attach_text"
+            android:text="Attach New File"/>
+    </RelativeLayout>
+
+
+    </RelativeLayout>
+</ScrollView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sendmessage"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        >
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#F26463"
+            android:text="Send Message"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/abc_text_size_medium_material"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            />
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginRight="15dp"
+            android:src="@drawable/ic_action_next_item"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            />
+    </RelativeLayout>
+</RelativeLayout><!-- From: file:/D:/notufy/app/src/main/res/layout/activity_send_message_teacher.xml -->

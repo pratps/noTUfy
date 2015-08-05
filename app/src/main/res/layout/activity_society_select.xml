@@ -1,0 +1,21 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_floating_material_light"
+    tools:context="notufy.thapar.com.notufy.Activity.society_select">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/screen_default_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/theme_dialer_primary"
+        android:minHeight="?attr/actionBarSize"
+        tools:context=".ToolBar"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/societylist"
+        android:scrollbars="vertical"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/screen_default_toolbar"
+        android:layout_height="match_parent" />
+
+</RelativeLayout>

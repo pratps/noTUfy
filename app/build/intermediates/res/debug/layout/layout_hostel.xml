@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:background="@drawable/card"
+
+    android:layout_margin="5dp"
+    android:orientation="vertical"
+
+    android:padding="5dp"
+    android:id="@+id/hostel_bean">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/abc_text_size_medium_material"
+        android:textColor="@color/accent_material_light"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:padding="10dp"
+        android:text="Mess Info"
+        android:id="@+id/hostel_heading" />
+
+    <TextView
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/material_blue_grey_800"
+        android:text="Please provide your feedback for the mess food, daily."
+        android:textSize="@dimen/abc_text_size_small_material"
+        android:id="@+id/hostel_info" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginEnd="5dp"
+        android:text="Thursday, 20th August, 2015"
+        android:textColor="#A4A4A4"
+        android:textStyle="italic"
+        android:textSize="@dimen/abc_text_size_caption_material"
+        android:id="@+id/hostel_datetime"
+        android:layout_gravity="end" />
+
+</LinearLayout><!-- From: file:/D:/notufy/app/src/main/res/layout/layout_hostel.xml -->

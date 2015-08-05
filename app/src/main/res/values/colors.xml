@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="theme_dialer_primary">#0288D1</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="primarycolor">#673AB7</color>
+    <color name="primarylightcolor">#469DB8</color>
+    <color name="primarycolorDark">#512DA8</color>
+    <color name="indigo_500">#3f51b5</color>
+    <color name="indigo_700">#303f9f</color>
+    <color name="cyan_500">#00bcd4</color>
+</resources>

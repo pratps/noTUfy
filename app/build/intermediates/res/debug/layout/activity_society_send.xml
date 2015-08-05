@@ -1,0 +1,145 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:notufy="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context="notufy.myapp.SendSocietyMessage"
+
+    >
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        android:scaleType="center"
+        android:src="@drawable/ccs"
+        android:visibility="visible" />
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#CE000000">
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/society"
+            android:padding="16dp"
+            >
+
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/ccs"
+                android:id="@+id/society_image_societysend"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:text="Creative Computing Society"
+                android:textStyle="bold"
+                android:textSize="@dimen/abc_text_size_large_material"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@id/society_image_societysend"/>
+
+
+        </RelativeLayout>
+
+        <com.rengwuxian.materialedittext.MaterialAutoCompleteTextView
+            android:id="@+id/msg_title"
+            android:layout_below="@id/society"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:hint="Provide a title"
+            android:padding="10dp"
+            android:textColor="#ffffff"
+            android:textColorHint="#eeeeee"
+            notufy:met_baseColor="#ffffff"
+            notufy:met_primaryColor="#ee6e73" />
+
+
+        <com.rengwuxian.materialedittext.MaterialAutoCompleteTextView
+            android:id="@+id/input_society_msg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/msg_title"
+            android:layout_margin="20dp"
+            notufy:met_baseColor="#ffffff"
+            android:hint="Type your message here"
+            android:inputType="textMultiLine"
+            android:padding="10dp"
+            android:textColor="#ffffff"
+            android:textColorHint="#eeeeee"
+            notufy:met_primaryColor="#ee6e73" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/input_society_msg"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+
+            android:id="@+id/relativeLayout2">
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:id="@+id/set_time"
+                android:contentDescription="Set Date/Time"
+                android:src="@drawable/time" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DATE/TIME"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/abc_text_size_small_material"
+                android:layout_below="@+id/set_time"
+                android:layout_centerInParent="true"
+                android:textStyle="bold"
+                />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_below="@id/input_society_msg"
+            >
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:id="@+id/set_venue"
+
+                android:contentDescription="Set Venue"
+                android:src="@drawable/city" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SET VENUE"
+                android:textStyle="bold"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/abc_text_size_small_material"
+                android:layout_below="@+id/set_venue"
+                android:layout_centerInParent="true"
+                android:gravity="center" />
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+</RelativeLayout><!-- From: file:/D:/notufy/app/src/main/res/layout/activity_society_send.xml -->

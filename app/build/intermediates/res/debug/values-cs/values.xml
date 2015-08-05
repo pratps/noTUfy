@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- From: file:/D:/notufy/app/build/intermediates/exploded-aar/com.doomonafireball.betterpickers/library/1.5.5/res/values-cs/values.xml -->
+    <eat-comment/>
+    <plurals name="daily">
+        <item quantity="one">Denně</item>
+        <item quantity="few">Každé <ns1:g id="number">%d</ns1:g> dny</item>
+        <item quantity="other">Každých <ns1:g id="number">%d</ns1:g> dnů</item>
+    </plurals>
+    <plurals name="endByCount">
+        <item quantity="one">; jednou</item>
+        <item quantity="few">; <ns1:g id="number">%d</ns1:g> krát</item>
+        <item quantity="other">; <ns1:g id="number">%d</ns1:g> krát</item>
+    </plurals>
+    <plurals name="recurrence_end_count">
+        <item quantity="one">Opakovat <ns1:g id="event_count">%d</ns1:g> událost</item>
+        <item quantity="few">Opakovat <ns1:g id="event_count">%d</ns1:g> události</item>
+        <item quantity="other">Opakovat <ns1:g id="event_count">%d</ns1:g> událostí</item>
+    </plurals>
+    <plurals name="recurrence_interval_daily">
+        <!-- Singular form [CHAR LIMIT=30] -->
+        <item quantity="one">Každý den</item>
+        <item quantity="few">Každý <ns1:g id="count">%d</ns1:g>. den</item>
+        <!-- Plural form [CHAR LIMIT=30] -->
+        <item quantity="other">Každý <ns1:g id="count">%d</ns1:g>. den</item>
+    </plurals>
+    <plurals name="recurrence_interval_monthly">
+        <!-- Singular form [CHAR LIMIT=30] -->
+        <item quantity="one">Každý měsíc</item>
+        <item quantity="few">Každý <ns1:g id="count">%d</ns1:g>. měsíc</item>
+        <!-- Plural form [CHAR LIMIT=30] -->
+        <item quantity="other">Každý <ns1:g id="count">%d</ns1:g>. měsíc</item>
+    </plurals>
+    <plurals name="recurrence_interval_weekly">
+        <!-- Singular form [CHAR LIMIT=30] -->
+        <item quantity="one">Každý týden</item>
+        <item quantity="few">Každý <ns1:g id="count">%d</ns1:g>. týden</item>
+        <!-- Plural form [CHAR LIMIT=30] -->
+        <item quantity="other">Každý <ns1:g id="count">%d</ns1:g>. týden</item>
+    </plurals>
+    <plurals name="recurrence_interval_yearly">
+        <!-- Singular form [CHAR LIMIT=30] -->
+        <item quantity="one">Každý rok</item>
+        <item quantity="few">Každý <ns1:g id="count">%d</ns1:g>. rok</item>
+        <!-- Plural form [CHAR LIMIT=30] -->
+        <item quantity="other">Každý <ns1:g id="count">%d</ns1:g>. rok</item>
+    </plurals>
+    <plurals name="weekly">
+        <item quantity="one">Týdně <ns1:g id="days_of_week">%2$s</ns1:g></item>
+        <item quantity="few">Každé <ns1:g id="days_of_week">%2$s</ns1:g> týdny v <ns1:g id="days_of_week">%2$s</ns1:g></item>
+        <item quantity="other">Každé <ns1:g id="number">%1$d</ns1:g> týdny v <ns1:g id="days_of_week">%2$s</ns1:g></item>
+    </plurals>
+    <!-- From: file:/D:/notufy/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-cs/values.xml -->
+    <eat-comment/>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Přejít na plochu"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s – %2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s, %2$s – %3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Přejít nahoru"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Více možností"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Hotovo"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Zobrazit vše"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Vybrat aplikaci"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Smazat dotaz"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Vyhledávací dotaz"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Hledat"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Odeslat dotaz"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Hlasové vyhledávání"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Sdílet pomocí"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Sdílet pomocí %s"</string>
+    <!-- From: file:/D:/notufy/app/build/intermediates/exploded-aar/com.doomonafireball.betterpickers/library/1.5.5/res/values-cs/values.xml -->
+    <eat-comment/>
+    <string name="acessibility_recurrence_choose_end_date_description">změnit do</string>
+    <!-- From: file:/D:/notufy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.0.0/res/values-cs/common_strings.xml -->
+    <eat-comment/>
+    <string msgid="473679118463211576" name="common_android_wear_notification_needs_update_text">"Některá aplikace vyžaduje aktualizaci aplikace Android Wear."</string>
+    <string msgid="3046420540094071256" name="common_android_wear_update_text">"Aplikace bude fungovat po aktualizaci aplikace Android Wear."</string>
+    <string msgid="1366439133145190222" name="common_android_wear_update_title">"Aktualizujte aplikaci Android Wear"</string>
+    <string msgid="4181637455539816337" name="common_google_play_services_enable_button">"Aktivovat služby Google Play"</string>
+    <string msgid="7627896071867667758" name="common_google_play_services_enable_text">"Ke spuštění této aplikace je třeba aktivovat služby Google Play."</string>
+    <string msgid="529078775174559253" name="common_google_play_services_enable_title">"Aktivovat služby Google Play"</string>
+    <string msgid="2443362625939284971" name="common_google_play_services_error_notification_requested_by_msg">"Požadováno aplikací <ns1:g id="APP_NAME">%1$s</ns1:g>"</string>
+    <string msgid="8515591849428043265" name="common_google_play_services_install_button">"Instalovat služby Google Play"</string>
+    <string msgid="8685301130651051380" name="common_google_play_services_install_text_phone">"Ke spuštění této aplikace jsou potřeba služby Google Play, které v telefonu nemáte."</string>
+    <string msgid="1589957570365247855" name="common_google_play_services_install_text_tablet">"Ke spuštění této aplikace jsou potřeba služby Google Play, které v tabletu nemáte."</string>
+    <string msgid="26645092511305524" name="common_google_play_services_install_title">"Instalovat služby Google Play"</string>
+    <string msgid="4983316348021735578" name="common_google_play_services_invalid_account_text">"Zadaný účet v tomto zařízení neexistuje. Zvolte prosím jiný účet."</string>
+    <string msgid="1066672360770936753" name="common_google_play_services_invalid_account_title">"Neplatný účet"</string>
+    <string msgid="2583358409598976717" name="common_google_play_services_needs_enabling_title">"Aplikace vyžaduje aktivaci služeb Google Play."</string>
+    <string msgid="9038847255613537209" name="common_google_play_services_network_error_text">"Připojení ke službám Google Play vyžaduje datové připojení."</string>
+    <string msgid="3827284619958211114" name="common_google_play_services_network_error_title">"Chyba sítě"</string>
+    <string msgid="8120534356798772974" name="common_google_play_services_notification_needs_installation_title">"Aplikace vyžaduje instalaci služeb Google Play."</string>
+    <string msgid="1388129345631079938" name="common_google_play_services_notification_needs_update_title">"Aplikace vyžaduje aktualizaci služeb Google Play."</string>
+    <string msgid="1852570676146674985" name="common_google_play_services_notification_ticker">"Chyba služeb Google Play"</string>
+    <string msgid="5194079840165204725" name="common_google_play_services_sign_in_failed_text">"Při přihlašování k uvedenému účtu došlo k chybě. Zvolte prosím jiný účet."</string>
+    <string msgid="8164948898147532159" name="common_google_play_services_sign_in_failed_title">"Přihlášení se nezdařilo"</string>
+    <string msgid="4762332809710093730" name="common_google_play_services_unknown_issue">"Nastal neznámý problém se službami Google Play."</string>
+    <string msgid="3542578567569488671" name="common_google_play_services_unsupported_text">"Některé vaše aplikace vyžadují služby Google Play, které ve vašem zařízení nejsou podporovány. S žádostí o pomoc se prosím obraťte na výrobce."</string>
+    <string msgid="6334768798839376943" name="common_google_play_services_unsupported_title">"Služby Google Play"</string>
+    <string msgid="8932944190611227642" name="common_google_play_services_update_button">"Aktualizovat"</string>
+    <string msgid="448354684997260580" name="common_google_play_services_update_text">"Ke spuštění této aplikace je třeba aktualizovat služby Google Play."</string>
+    <string msgid="6006316683626838685" name="common_google_play_services_update_title">"Aktualizace služeb Google Play"</string>
+    <string msgid="411506735369601515" name="common_open_on_phone">"Otevřít v telefonu"</string>
+    <string msgid="9071884888741449141" name="common_signin_button_text">"Přihlásit se"</string>
+    <string msgid="2429381841831957106" name="common_signin_button_text_long">"Přihlásit se účtem Google"</string>
+    <string msgid="5000919058582214855" name="commono_google_play_services_api_unavailable_text">"Tato aplikace vyžaduje jednu nebo více služeb Google Play, které aktuálně nejsou k dispozici. S žádostí o pomoc se obraťte na vývojáře."</string>
+    <!-- From: file:/D:/notufy/app/build/intermediates/exploded-aar/com.doomonafireball.betterpickers/library/1.5.5/res/values-cs/values.xml -->
+    <eat-comment/>
+    <string name="day_c">DEN</string>
+    <string name="day_of_week_label_typeface">sans-serif</string>
+    <string name="day_picker_description">Výběr dnu v měsíci</string>
+    <string name="deleted_key">%1$s smazáno</string>
+    <string name="done_label">Hotovo</string>
+    <string name="endByDate">; do <ns1:g id="date">%s</ns1:g></string>
+    <string name="every_weekday">"Každý pracovní den (Mon\u2013Fri)"</string>
+    <string name="expiration_picker_seperator">/</string>
+    <string name="hint_time_zone_search">Napište název země</string>
+    <string name="hms_picker_hours_label">H</string>
+    <string name="hms_picker_minutes_label">M</string>
+    <string name="hms_picker_seconds_label">S</string>
+    <string name="hour_picker_description">Kruhový výběr hodiny</string>
+    <string name="hours_label">h</string>
+    <string name="hours_label_description">hodin</string>
+    <string name="item_is_selected">%1$s vybráno</string>
+    <string name="max_error">Vložte prosím číslo menší nebo rovno %1$d</string>
+    <string name="min_error">Vložte prosím číslo větší nebo rovno %1$d</string>
+    <string name="min_max_error">Vložte prosím číslo v rozmezí %1$d a %2$d</string>
+    <string name="minute_picker_description">Kruhový výběr minuty</string>
+    <string name="minutes_label">m</string>
+    <string name="minutes_label_description">minut</string>
+    <string name="month_c">MĚSÍC</string>
+    <string name="monthly">Měsíčně</string>
+    <string name="no_results_found">Nenalezeno</string>
+    <string name="number_delete">Smazat</string>
+    <string name="number_picker_minus_label">—</string>
+    <string name="number_picker_plus_minus">+/-</string>
+    <string name="number_picker_seperator">.</string>
+    <string name="palestine_display_name">Palestina</string>
+    <string name="picker_cancel">Zrušit</string>
+    <string name="picker_set">Potvrdit</string>
+    <string name="radial_numbers_typeface">sans-serif</string>
+    <string name="recurrence_end_continously">Navždy</string>
+    <string name="recurrence_end_count_label">Pouze několikrát</string>
+    <string name="recurrence_end_date">Do <ns1:g id="date">%s</ns1:g></string>
+    <string name="recurrence_end_date_label">Do data</string>
+    <string name="recurrence_month_pattern_by_day">stejný den každý měsíc</string>
+    <string name="sans_serif">sans-serif</string>
+    <string name="save_label">Hotovo</string>
+    <string name="searchview_description_clear">Vymazat</string>
+    <string name="seconds_label">s</string>
+    <string name="seconds_label_description">sekund</string>
+    <string name="select_day">Vyber měsíc a den</string>
+    <string name="select_hours">Vyberte hodinu</string>
+    <string name="select_minutes">Vyberte minutu</string>
+    <string name="select_year">Vyber rok</string>
+    <string name="switch_off">VYPNUTO</string>
+    <string name="switch_on">ZAPNUTO</string>
+    <string name="time_picker_00_label">:00</string>
+    <string name="time_picker_30_label">:30</string>
+    <string name="time_picker_ampm_label">--</string>
+    <string name="time_picker_time_seperator">:</string>
+    <string name="time_placeholder">--</string>
+    <string name="time_separator">:</string>
+    <string name="timer_delete">Smazat</string>
+    <string name="year_c">ROK</string>
+    <string name="year_picker_description">Seznam roků</string>
+    <string name="yearly_plain">Ročně</string>
+</resources>

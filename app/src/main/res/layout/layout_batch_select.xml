@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/lay1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:background="@drawable/card">
+
+
+            <TextView
+                android:id="@+id/grp_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="COE6"
+                android:textAllCaps="true"
+                android:textColor="@color/material_blue_grey_800"
+                android:textSize="@dimen/abc_text_size_medium_material"
+                android:layout_margin="5dp"
+                android:textStyle="bold"
+                android:layout_alignParentLeft="true"
+                android:layout_toLeftOf="@+id/ltp"
+
+                />
+            <!-- Red Color ID= #FF0000 -->
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:id="@+id/ltp"
+            android:orientation="horizontal">
+
+
+
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/l"
+            android:text="L"
+            android:gravity="center"
+            android:textSize="@dimen/abc_text_size_medium_material"
+            android:textColor="@color/material_blue_grey_800"
+            android:textStyle="bold"
+            android:layout_margin="5dp"
+            android:padding="10dp"
+            android:background="@drawable/circle"
+
+
+            />
+
+
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:id="@+id/t"
+                android:text="T"
+                android:textSize="@dimen/abc_text_size_medium_material"
+                android:textColor="@color/material_blue_grey_800"
+                android:textStyle="bold"
+                android:layout_margin="5dp"
+                android:gravity="center"
+
+                android:visibility="visible"
+                android:padding="10dp"
+
+                android:background="@drawable/circle"
+
+                />
+
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:id="@+id/p"
+                android:text="P"
+                android:textSize="@dimen/abc_text_size_medium_material"
+                android:textColor="@color/material_blue_grey_800"
+                android:textStyle="bold"
+                android:visibility="visible"
+                android:layout_alignParentRight="true"
+                android:gravity="center"
+
+                android:padding="10dp"
+                android:layout_margin="5dp"
+
+                android:background="@drawable/circle"
+
+                />
+
+
+        </LinearLayout>
+
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
