@@ -23,6 +23,7 @@ import notufy.thapar.com.notufy.Adapters.SendHODPagerAdapter;
 import notufy.thapar.com.notufy.Beans.SectionsTabsBean;
 import notufy.thapar.com.notufy.R;
 import notufy.thapar.com.notufy.SlidingTabLayout;
+import notufy.thapar.com.notufy.config;
 
 
 public class HomeFragment extends Fragment {
@@ -89,6 +90,7 @@ public class HomeFragment extends Fragment {
         }
         return sectionTabsListItens;
     }
+    /*
     private void loadfloatingButtons() {
         FloatingActionButton add=new FloatingActionButton(getActivity());
         add.setTitle("data");
@@ -96,4 +98,59 @@ public class HomeFragment extends Fragment {
         menu.addButton(add);
 
     }
+    */
+    private void loadfloatingButtons() {
+        config conf=new config(getActivity());
+        int user_type=config.parseInt(conf.getUsercode());
+        if ((user_type & config.STUDENT) != 0) {
+            FloatingActionButton add = new FloatingActionButton(logined.mContext);
+            add.setTitle("data");
+            add.setImageResource(R.drawable.ic_action_settings);
+            menu.addButton(add);
+        }
+        if ((user_type & config.CONVENER) != 0) {
+            FloatingActionButton add = new FloatingActionButton(logined.mContext);
+            add.setImageResource(R.drawable.ic_action_settings);
+            add.setTitle("data");
+            menu.addButton(add);
+        }
+        if ((user_type & config.TEACHER) != 0) {
+            FloatingActionButton add = new FloatingActionButton(getActivity());
+            add.setImageResource(R.drawable.ic_action_settings);
+            add.setTitle("data");
+            menu.addButton(add);
+        }
+        if ((user_type & config.SUBJECT_COORD) != 0) {
+            FloatingActionButton add = new FloatingActionButton(getActivity());
+            add.setImageResource(R.drawable.ic_action_settings);
+            add.setTitle("data");
+            menu.addButton(add);
+        }
+        if ((user_type & config.YEAR_COORD) != 0) {
+            FloatingActionButton add = new FloatingActionButton(getActivity());
+            add.setImageResource(R.drawable.ic_action_settings);
+            add.setTitle("data");
+            menu.addButton(add);
+        }
+        if ((user_type & config.HOD) != 0) {
+            FloatingActionButton add = new FloatingActionButton(getActivity());
+            add.setImageResource(R.drawable.ic_action_settings);
+            add.setTitle("data");
+            menu.addButton(add);
+        }
+        if ((user_type & config.HOSTEL_ADMIN) != 0) {
+            FloatingActionButton add = new FloatingActionButton(getActivity());
+            add.setImageResource(R.drawable.ic_action_settings);
+            add.setTitle("data");
+            menu.addButton(add);
+        }
+        if ((user_type & config.HOSTEL_RESIDENT) != 0) {
+            FloatingActionButton add = new FloatingActionButton(getActivity());
+            add.setImageResource(R.drawable.ic_action_settings);
+            add.setTitle("data");
+            menu.addButton(add);
+        }
+    }
+
+
 }

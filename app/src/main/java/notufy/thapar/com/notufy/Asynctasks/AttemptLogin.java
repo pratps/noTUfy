@@ -37,6 +37,7 @@ public class AttemptLogin implements CallbackAsync{
 
     public void execute() {
 
+        Log.e("notufy http ",LOGIN_URL);
         Map<String,List<String>> params = new HashMap<String,List<String>>();
         Set<String> keys=map.keySet();
         String[] arr=keys.toArray(new String[keys.size()]);

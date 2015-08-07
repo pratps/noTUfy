@@ -25,14 +25,14 @@ D:\notufy\app\build\intermediates\pre-dexed\debug\classes-de9e80d83d588888d33925
 D:\notufy\app\build\intermediates\pre-dexed\debug\classes-ce866b60cc93a32aaa5d17d78f44da29d33b07f1.jar
 D:\notufy\app\build\intermediates\pre-dexed\debug\gson-2.3-2d9793f575993e5874ae81a711de87610260aca7.jar
 D:\notufy\app\build\intermediates\pre-dexed\debug\internal_impl-22.0.0-2d7fbf27f498a338acbaee3e4269b7ec895bf082.jar
-D:\notufy\app\build\intermediates\pre-dexed\debug\ion-2.1.4-361195665557d648e2015c0fef98f2a224b2ecb3.jar
+D:\notufy\app\build\intermediates\pre-dexed\debug\ion-2.1.6-563f8a779b38c713f991f263b3d846c380245609.jar
 D:\notufy\app\build\intermediates\pre-dexed\debug\classes-fed040de47e9f107d75d33b38226d6c486702b59.jar
 D:\notufy\app\build\intermediates\pre-dexed\debug\classes-c5572aeae04462920605fda30e281f37dcb37974.jar
 D:\notufy\app\build\intermediates\pre-dexed\debug\classes-63803ebdd8958b9cb7b6465e3fc714ca29c0490b.jar
 D:\notufy\app\build\intermediates\pre-dexed\debug\classes-b5e15991b5ec81e7e71aaa7e1127c535cf94a45e.jar
 D:\notufy\app\build\intermediates\pre-dexed\debug\classes-63883e7bdb2529aafb3c9be995764e637975af34.jar
 D:\notufy\app\build\intermediates\pre-dexed\debug\classes-84cf8c0238b23bd2703313a019085be9e8f8874f.jar
-D:\notufy\app\build\intermediates\pre-dexed\debug\androidasync-2.1.4-6b0d75941644cc371d5228bbed987507a525393f.jar
+D:\notufy\app\build\intermediates\pre-dexed\debug\androidasync-2.1.6-3b281b1b15b3420808836766583199fd8f6089e5.jar
 D:\notufy\app\build\intermediates\pre-dexed\debug\classes-6b5050e23430498c606777790b379cddce098c3d.jar
 D:\notufy\app\build\intermediates\pre-dexed\debug\classes-bb8401a86d7d0e7afc5ab0872c61028a00fbb1bc.jar
 D:\notufy\app\build\intermediates\pre-dexed\debug\classes-1b85854b31c9f9c6d5660afaca029db0847dfd1a.jar

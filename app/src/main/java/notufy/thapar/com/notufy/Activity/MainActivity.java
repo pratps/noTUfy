@@ -42,7 +42,7 @@ public class MainActivity extends ActionBarActivity {
     Context mContext;
     SharedPreferences share;
     String user_email,user_password;
-    String LOGIN_URL="http://learntheeasyway.tk/notufy/app/login.php";
+    String LOGIN_URL="/login.php";
     String gcm_id=null;
     config conf;
     SharedPreferences.Editor edit;
@@ -70,7 +70,7 @@ public class MainActivity extends ActionBarActivity {
                 map.put("password",user_password);
                 map.put("gcm_id",gcm_id);
                 Log.e("map",map.toString());
-                new AttemptLogin(true,"Please Wait..",LOGIN_URL,getApplicationContext(),map,MainActivity.this){
+                new AttemptLogin(true,"Please Wait..",config.URL+LOGIN_URL,getApplicationContext(),map,MainActivity.this){
                     @Override
                     public void setonCallback(JSONObject json) {
                         if(json!=null)

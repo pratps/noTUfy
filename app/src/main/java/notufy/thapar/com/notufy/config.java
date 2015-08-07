@@ -55,8 +55,9 @@ public class config {
     SharedPreferences personal_info;
     SharedPreferences.Editor personal_info_editor;
 
-    public static String URL="http://learntheeasyway.tk/notufy/app";
-    public static String DOWNLOAD_URL="http://learntheeasyway.tk/notufy";
+    public static String URL="http://notufy.byethost7.com/app";
+    public static String DOWNLOAD_URL="http://notufy.byet" +
+            "host7.com";
     public config(Context context)
     {
         this.context=context;
@@ -397,5 +398,14 @@ public class config {
             return s;
         else
             return "";
+    }
+
+
+    public static int parseInt(String s) {
+        try{
+            return Integer.parseInt(s);
+        }catch(NumberFormatException e){
+            return 0;
+        }
     }
 }
