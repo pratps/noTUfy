@@ -24,18 +24,6 @@
         </RelativeLayout>
 
 
-
-
-    <include
-        android:id="@+id/screen_default_toolbar"
-        layout="@layout/tool_bar"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
-
-
-
-
-
 </RelativeLayout>
     <fragment
         android:id="@+id/fragment_navigation_drawer"

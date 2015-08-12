@@ -12,8 +12,9 @@ public class HomePagerAdapter extends FragmentStatePagerAdapter {
 
     CharSequence Titles[]; // This will Store the Titles of the Tabs which are Going to be passed when ViewPagerAdapter is created
     int NumbOfTabs; // Store the number of tabs, this will also be passed when the ViewPagerAdapter is created
-
-
+    society_messages sm;
+    teacher_messages tm;
+    hostel_messages hm;
     // Build a Constructor and assign the passed Values to appropriate values in the class
     public HomePagerAdapter(FragmentManager fm, CharSequence mTitles[], int mNumbOfTabsumb) {
         super(fm);
@@ -28,11 +29,20 @@ public class HomePagerAdapter extends FragmentStatePagerAdapter {
     public Fragment getItem(int position) {
 
         switch(position){
-            case 0:teacher_messages tm=new teacher_messages();
+            case 0:
+                if(tm==null) {
+                    tm = new teacher_messages();
+                }
                 return tm;
-            case 1:society_messages sm=new society_messages();
+            case 1:
+                if(sm==null) {
+                    sm = new society_messages();
+                }
                 return sm;
-            default:hostel_messages hm=new hostel_messages();
+            default:
+                if(hm==null){
+                    hm=new hostel_messages();
+                }
                 return hm;
         }
 

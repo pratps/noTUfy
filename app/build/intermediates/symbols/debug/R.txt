@@ -829,6 +829,7 @@ int id classic 0x7f0a0040
 int id clear_search 0x7f0a0130
 int id collapseActionView 0x7f0a0029
 int id collapsed 0x7f0a002e
+int id collapsetoolbar 0x7f0a00ae
 int id date 0x7f0a00a0
 int id date_keyboard 0x7f0a0004
 int id date_month_int 0x7f0a0005
@@ -887,7 +888,6 @@ int id expiration_picker 0x7f0a00ab
 int id expiration_seperator 0x7f0a00ac
 int id fab_expand_menu_button 0x7f0a0006
 int id fab_label 0x7f0a0007
-int id fakeToolbar 0x7f0a00ae
 int id fb 0x7f0a0080
 int id file_info 0x7f0a00ee
 int id file_name 0x7f0a00ef

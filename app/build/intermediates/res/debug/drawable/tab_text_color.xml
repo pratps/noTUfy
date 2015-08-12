@@ -4,4 +4,4 @@
     <item android:state_focused="true" android:color="@android:color/white" />
     <item android:state_pressed="true" android:color="@android:color/white" />
     <item android:color="#D0D0DD"/>
-</selector><!-- From: file:/D:/notufy/app/src/main/res/drawable/tab_text_color.xml -->
+</selector><!-- From: file:/C:/Users/pranav%20vij/Documents/notufy/notufy/app/src/main/res/drawable/tab_text_color.xml -->

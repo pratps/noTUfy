@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- From: file:/D:/notufy/app/build/intermediates/exploded-aar/com.doomonafireball.betterpickers/library/1.5.5/res/values/values.xml -->
+    <!-- From: file:/C:/Users/pranav%20vij/Documents/notufy/notufy/app/build/intermediates/exploded-aar/com.doomonafireball.betterpickers/library/1.5.5/res/values/values.xml -->
     <eat-comment/>
     <string-array name="backup_country_codes" translatable="false">
         <item>"SX"</item>
@@ -69,14 +69,14 @@
         <item>on every fourth Wednesday</item>
         <item>on every last Wednesday</item>
     </string-array>
-    <!-- From: file:/D:/notufy/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/C:/Users/pranav%20vij/Documents/notufy/notufy/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string-array name="section">
         <item>Teachers</item>
         <item>Societies</item>
         <item>Hostel</item>
     </string-array>
-    <!-- From: file:/D:/notufy/app/build/intermediates/exploded-aar/com.doomonafireball.betterpickers/library/1.5.5/res/values/values.xml -->
+    <!-- From: file:/C:/Users/pranav%20vij/Documents/notufy/notufy/app/build/intermediates/exploded-aar/com.doomonafireball.betterpickers/library/1.5.5/res/values/values.xml -->
     <eat-comment/>
     <string-array name="timezone_rename_ids" translatable="false">
 
@@ -173,7 +173,7 @@
         <!-- Non DST version of Brasilia Standard Time -->
         <item>"Brasilia - Pará"</item>
     </string-array>
-    <!-- From: file:/D:/notufy/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
+    <!-- From: file:/C:/Users/pranav%20vij/Documents/notufy/notufy/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <attr format="reference" name="drawerArrowStyle"/>
     <attr format="dimension" name="height"/>
@@ -191,24 +191,24 @@
     <color name="abc_search_url_text_selected">@android:color/black</color>
     <color name="accent_material_dark">@color/material_deep_teal_200</color>
     <color name="accent_material_light">@color/material_deep_teal_500</color>
-    <!-- From: file:/D:/notufy/app/build/intermediates/exploded-aar/com.doomonafireball.betterpickers/library/1.5.5/res/values/values.xml -->
+    <!-- From: file:/C:/Users/pranav%20vij/Documents/notufy/notufy/app/build/intermediates/exploded-aar/com.doomonafireball.betterpickers/library/1.5.5/res/values/values.xml -->
     <eat-comment/>
     <color name="ampm_text_color">#8c8c8c</color>
-    <!-- From: file:/D:/notufy/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
+    <!-- From: file:/C:/Users/pranav%20vij/Documents/notufy/notufy/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <color name="background_floating_material_dark">#ff424242</color>
     <color name="background_floating_material_light">#ffeeeeee</color>
-    <!-- From: file:/D:/notufy/app/build/intermediates/exploded-aar/org.jraf/android-switch-backport/1.4.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/pranav%20vij/Documents/notufy/notufy/app/build/intermediates/exploded-aar/org.jraf/android-switch-backport/1.4.0/res/values/values.xml -->
     <eat-comment/>
     <color name="background_holo_light">#fff3f3f3</color>
-    <!-- From: file:/D:/notufy/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
+    <!-- From: file:/C:/Users/pranav%20vij/Documents/notufy/notufy/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <color name="background_material_dark">#ff303030</color>
     <color name="background_material_light">#ffeeeeee</color>
-    <!-- From: file:/D:/notufy/app/src/main/res/values/colors.xml -->
+    <!-- From: file:/C:/Users/pranav%20vij/Documents/notufy/notufy/app/src/main/res/values/colors.xml -->
     <eat-comment/>
     <color name="black">#000000</color>
-    <!-- From: file:/D:/notufy/app/build/intermediates/exploded-aar/com.doomonafireball.betterpickers/library/1.5.5/res/values/values.xml -->
+    <!-- From: file:/C:/Users/pranav%20vij/Documents/notufy/notufy/app/build/intermediates/exploded-aar/com.doomonafireball.betterpickers/library/1.5.5/res/values/values.xml -->
     <eat-comment/>
     <color name="bpBlue">#33b5e5</color>
     <color name="bpBlue_focused">#c1e8f7</color>
@@ -222,17 +222,17 @@
     <color name="bpTransparent">#00000000</color>
     <color name="bpTransparent_black">#7f000000</color>
     <color name="bpWhite">#ffffff</color>
-    <!-- From: file:/D:/notufy/app/build/intermediates/exploded-aar/org.jraf/android-switch-backport/1.4.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/pranav%20vij/Documents/notufy/notufy/app/build/intermediates/exploded-aar/org.jraf/android-switch-backport/1.4.0/res/values/values.xml -->
     <eat-comment/>
     <color name="bright_foreground_disabled_holo_dark">#ff4c4c4c</color>
-    <!-- From: file:/D:/notufy/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
+    <!-- From: file:/C:/Users/pranav%20vij/Documents/notufy/notufy/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <color name="bright_foreground_disabled_material_dark">#80ffffff</color>
     <color name="bright_foreground_disabled_material_light">#80000000</color>
-    <!-- From: file:/D:/notufy/app/build/intermediates/exploded-aar/org.jraf/android-switch-backport/1.4.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/pranav%20vij/Documents/notufy/notufy/app/build/intermediates/exploded-aar/org.jraf/android-switch-backport/1.4.0/res/values/values.xml -->
     <eat-comment/>
     <color name="bright_foreground_holo_dark">@color/background_holo_light</color>
-    <!-- From: file:/D:/notufy/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
+    <!-- From: file:/C:/Users/pranav%20vij/Documents/notufy/notufy/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <color name="bright_foreground_inverse_material_dark">@color/bright_foreground_material_light</color>
     <color name="bright_foreground_inverse_material_light">@color/bright_foreground_material_dark</color>
@@ -240,20 +240,20 @@
     <color name="bright_foreground_material_light">@android:color/black</color>
     <color name="button_material_dark">#ff5a595b</color>
     <color name="button_material_light">#ffd6d7d7</color>
-    <!-- From: file:/D:/notufy/app/build/intermediates/exploded-aar/com.doomonafireball.betterpickers/library/1.5.5/res/values/values.xml -->
+    <!-- From: file:/C:/Users/pranav%20vij/Documents/notufy/notufy/app/build/intermediates/exploded-aar/com.doomonafireball.betterpickers/library/1.5.5/res/values/values.xml -->
     <eat-comment/>
     <color name="calendar_header">#999999</color>
     <color name="calendar_selected_date_text">#ffd1d2d4</color>
-    <!-- From: file:/D:/notufy/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/21.0.3/res/values/values.xml -->
+    <!-- From: file:/C:/Users/pranav%20vij/Documents/notufy/notufy/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <color name="cardview_dark_background">#FF202020</color>
     <color name="cardview_light_background">#FFFAFAFA</color>
     <color name="cardview_shadow_end_color">#03000000</color>
     <color name="cardview_shadow_start_color">#37000000</color>
-    <!-- From: file:/D:/notufy/app/build/intermediates/exploded-aar/com.doomonafireball.betterpickers/library/1.5.5/res/values/values.xml -->
+    <!-- From: file:/C:/Users/pranav%20vij/Documents/notufy/notufy/app/build/intermediates/exploded-aar/com.doomonafireball.betterpickers/library/1.5.5/res/values/values.xml -->
     <eat-comment/>
     <color name="circle_background">#f2f2f2</color>
-    <!-- From: file:/D:/notufy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.0.0/res/values/common_colors.xml -->
+    <!-- From: file:/C:/Users/pranav%20vij/Documents/notufy/notufy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.0.0/res/values/common_colors.xml -->
     <eat-comment/>
     <color name="common_action_bar_splitter">#d2d2d2</color>
     <color name="common_signin_btn_dark_text_default">@android:color/white</color>
@@ -265,10 +265,10 @@
     <color name="common_signin_btn_light_text_disabled">#FFAAAAAA</color>
     <color name="common_signin_btn_light_text_focused">#FF737373</color>
     <color name="common_signin_btn_light_text_pressed">@android:color/white</color>
-    <!-- From: file:/D:/notufy/app/src/main/res/values/colors.xml -->
+    <!-- From: file:/C:/Users/pranav%20vij/Documents/notufy/notufy/app/src/main/res/values/colors.xml -->
     <eat-comment/>
     <color name="cyan_500">#00bcd4</color>
-    <!-- From: file:/D:/notufy/app/build/intermediates/exploded-aar/com.doomonafireball.betterpickers/library/1.5.5/res/values/values.xml -->
+    <!-- From: file:/C:/Users/pranav%20vij/Documents/notufy/notufy/app/build/intermediates/exploded-aar/com.doomonafireball.betterpickers/library/1.5.5/res/values/values.xml -->
     <eat-comment/>
     <color name="date_picker_text_normal">#ff999999</color>
     <color name="date_picker_view_animator">#f2f2f2</color>
@@ -284,38 +284,38 @@
     <color name="default_text_color_holo_dark_disabled">#ff4c4c4c</color>
     <color name="default_text_color_holo_light">#ff000000</color>
     <color name="default_text_color_holo_light_disabled">#ffb2b2b2</color>
-    <!-- From: file:/D:/notufy/app/build/intermediates/exploded-aar/org.jraf/android-switch-backport/1.4.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/pranav%20vij/Documents/notufy/notufy/app/build/intermediates/exploded-aar/org.jraf/android-switch-backport/1.4.0/res/values/values.xml -->
     <eat-comment/>
     <color name="dim_foreground_disabled_holo_dark">#80bebebe</color>
-    <!-- From: file:/D:/notufy/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
+    <!-- From: file:/C:/Users/pranav%20vij/Documents/notufy/notufy/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <color name="dim_foreground_disabled_material_dark">#80bebebe</color>
     <color name="dim_foreground_disabled_material_light">#80323232</color>
-    <!-- From: file:/D:/notufy/app/build/intermediates/exploded-aar/org.jraf/android-switch-backport/1.4.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/pranav%20vij/Documents/notufy/notufy/app/build/intermediates/exploded-aar/org.jraf/android-switch-backport/1.4.0/res/values/values.xml -->
     <eat-comment/>
     <color name="dim_foreground_holo_dark">#bebebe</color>
-    <!-- From: file:/D:/notufy/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
+    <!-- From: file:/C:/Users/pranav%20vij/Documents/notufy/notufy/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <color name="dim_foreground_material_dark">#ffbebebe</color>
     <color name="dim_foreground_material_light">#ff323232</color>
-    <!-- From: file:/D:/notufy/app/build/intermediates/exploded-aar/com.doomonafireball.betterpickers/library/1.5.5/res/values/values.xml -->
+    <!-- From: file:/C:/Users/pranav%20vij/Documents/notufy/notufy/app/build/intermediates/exploded-aar/com.doomonafireball.betterpickers/library/1.5.5/res/values/values.xml -->
     <eat-comment/>
     <color name="done_disabled_dark">#bfbfbf</color>
     <color name="done_text_color_dark_disabled">#888888</color>
     <color name="done_text_color_dark_normal">#ffffff</color>
     <color name="done_text_color_disabled">#cccccc</color>
     <color name="done_text_color_normal">#000000</color>
-    <!-- From: file:/D:/notufy/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
+    <!-- From: file:/C:/Users/pranav%20vij/Documents/notufy/notufy/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <color name="highlighted_text_material_dark">#6680cbc4</color>
     <color name="highlighted_text_material_light">#66009688</color>
     <color name="hint_foreground_material_dark">@color/bright_foreground_disabled_material_dark</color>
     <color name="hint_foreground_material_light">@color/bright_foreground_disabled_material_light</color>
-    <!-- From: file:/D:/notufy/app/src/main/res/values/colors.xml -->
+    <!-- From: file:/C:/Users/pranav%20vij/Documents/notufy/notufy/app/src/main/res/values/colors.xml -->
     <eat-comment/>
     <color name="indigo_500">#3f51b5</color>
     <color name="indigo_700">#303f9f</color>
-    <!-- From: file:/D:/notufy/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
+    <!-- From: file:/C:/Users/pranav%20vij/Documents/notufy/notufy/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <color name="link_text_material_dark">@color/material_deep_teal_200</color>
     <color name="link_text_material_light">@color/material_deep_teal_500</color>
@@ -324,11 +324,11 @@
     <color name="material_blue_grey_950">#ff21272b</color>
     <color name="material_deep_teal_200">#ff80cbc4</color>
     <color name="material_deep_teal_500">#ff009688</color>
-    <!-- From: file:/D:/notufy/app/build/intermediates/exploded-aar/com.doomonafireball.betterpickers/library/1.5.5/res/values/values.xml -->
+    <!-- From: file:/C:/Users/pranav%20vij/Documents/notufy/notufy/app/build/intermediates/exploded-aar/com.doomonafireball.betterpickers/library/1.5.5/res/values/values.xml -->
     <eat-comment/>
     <color name="neutral_pressed">#33999999</color>
     <color name="numbers_text_color">#8c8c8c</color>
-    <!-- From: file:/D:/notufy/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
+    <!-- From: file:/C:/Users/pranav%20vij/Documents/notufy/notufy/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <color name="primary_dark_material_dark">#ff000000</color>
     <color name="primary_dark_material_light">#ff757575</color>
@@ -338,16 +338,16 @@
     <color name="primary_text_default_material_light">#de000000</color>
     <color name="primary_text_disabled_material_dark">#4Dffffff</color>
     <color name="primary_text_disabled_material_light">#39000000</color>
-    <!-- From: file:/D:/notufy/app/src/main/res/values/colors.xml -->
+    <!-- From: file:/C:/Users/pranav%20vij/Documents/notufy/notufy/app/src/main/res/values/colors.xml -->
     <eat-comment/>
     <color name="primarycolor">#673AB7</color>
     <color name="primarycolorDark">#512DA8</color>
     <color name="primarylightcolor">#469DB8</color>
-    <!-- From: file:/D:/notufy/app/build/intermediates/exploded-aar/com.doomonafireball.betterpickers/library/1.5.5/res/values/values.xml -->
+    <!-- From: file:/C:/Users/pranav%20vij/Documents/notufy/notufy/app/build/intermediates/exploded-aar/com.doomonafireball.betterpickers/library/1.5.5/res/values/values.xml -->
     <eat-comment/>
     <color name="recurrence_bubble_text_normal">#ff737373</color>
     <color name="recurrence_picker_background">#fff2f2f2</color>
-    <!-- From: file:/D:/notufy/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
+    <!-- From: file:/C:/Users/pranav%20vij/Documents/notufy/notufy/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <color name="ripple_material_dark">#40ffffff</color>
     <color name="ripple_material_light">#40000000</color>
@@ -357,10 +357,10 @@
     <color name="secondary_text_disabled_material_light">#24000000</color>
     <color name="switch_thumb_normal_material_dark">#ffbdbdbd</color>
     <color name="switch_thumb_normal_material_light">#fff1f1f1</color>
-    <!-- From: file:/D:/notufy/app/src/main/res/values/colors.xml -->
+    <!-- From: file:/C:/Users/pranav%20vij/Documents/notufy/notufy/app/src/main/res/values/colors.xml -->
     <eat-comment/>
     <color name="theme_dialer_primary">#0288D1</color>
-    <!-- From: file:/D:/notufy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/7.0.0/res/values/wallet_colors.xml -->
+    <!-- From: file:/C:/Users/pranav%20vij/Documents/notufy/notufy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/7.0.0/res/values/wallet_colors.xml -->
     <eat-comment/>
     <color name="wallet_bright_foreground_disabled_holo_light">#ffb2b2b2</color>
     <color name="wallet_bright_foreground_holo_dark">#fff3f3f3</color>
@@ -375,7 +375,7 @@
     <color name="wallet_hint_foreground_holo_light">#808080</color>
     <color name="wallet_holo_blue_light">#ff33b5e5</color>
     <color name="wallet_link_text_light">#0000ee</color>
-    <!-- From: file:/D:/notufy/app/src/main/res/values/colors.xml -->
+    <!-- From: file:/C:/Users/pranav%20vij/Documents/notufy/notufy/app/src/main/res/values/colors.xml -->
     <eat-comment/>
     <color name="white">#ffffff</color>
     <declare-styleable name="ActionBar"><attr name="navigationMode"><enum name="normal" value="0"/><enum name="listMode" value="1"/><enum name="tabMode" value="2"/></attr><attr name="displayOptions"><flag name="none" value="0"/><flag name="useLogo" value="0x1"/><flag name="showHome" value="0x2"/><flag name="homeAsUp" value="0x4"/><flag name="showTitle" value="0x8"/><flag name="showCustom" value="0x10"/><flag name="disableHome" value="0x20"/></attr><attr name="title"/><attr format="string" name="subtitle"/><attr format="reference" name="titleTextStyle"/><attr format="reference" name="subtitleTextStyle"/><attr format="reference" name="icon"/><attr format="reference" name="logo"/><attr format="reference" name="divider"/><attr format="reference" name="background"/><attr format="reference|color" name="backgroundStacked"/><attr format="reference|color" name="backgroundSplit"/><attr format="reference" name="customNavigationLayout"/><attr name="height"/><attr format="reference" name="homeLayout"/><attr format="reference" name="progressBarStyle"/><attr format="reference" name="indeterminateProgressStyle"/><attr format="dimension" name="progressBarPadding"/><attr name="homeAsUpIndicator"/><attr format="dimension" name="itemPadding"/><attr format="boolean" name="hideOnContentScroll"/><attr format="dimension" name="contentInsetStart"/><attr format="dimension" name="contentInsetEnd"/><attr format="dimension" name="contentInsetLeft"/><attr format="dimension" name="contentInsetRight"/><attr format="dimension" name="elevation"/><attr format="reference" name="popupTheme"/></declare-styleable>
@@ -419,7 +419,7 @@
     <declare-styleable name="ViewStubCompat"><attr name="android:layout"/><attr name="android:inflatedId"/><attr name="android:id"/></declare-styleable>
     <declare-styleable name="WalletFragmentOptions"><attr format="enum" name="appTheme"><enum name="holo_dark" value="0"/><enum name="holo_light" value="1"/></attr><attr format="enum" name="environment"><enum name="production" value="1"/><enum name="sandbox" value="0"/><enum name="strict_sandbox" value="2"/></attr><attr format="reference" name="fragmentStyle"/><attr format="enum" name="fragmentMode"><enum name="buyButton" value="1"/><enum name="selectionDetails" value="2"/></attr></declare-styleable>
     <declare-styleable name="WalletFragmentStyle"><attr format="dimension" name="buyButtonHeight"><enum name="match_parent" value="-1"/><enum name="wrap_content" value="-2"/></attr><attr format="dimension" name="buyButtonWidth"><enum name="match_parent" value="-1"/><enum name="wrap_content" value="-2"/></attr><attr format="enum" name="buyButtonText"><enum name="buy_with_google" value="1"/><enum name="buy_now" value="2"/><enum name="book_now" value="3"/><enum name="donate_with_google" value="4"/></attr><attr format="enum" name="buyButtonAppearance"><enum name="classic" value="1"/><enum name="grayscale" value="2"/><enum name="monochrome" value="3"/></attr><attr format="reference" name="maskedWalletDetailsTextAppearance"/><attr format="reference" name="maskedWalletDetailsHeaderTextAppearance"/><attr format="reference|color" name="maskedWalletDetailsBackground"/><attr format="reference" name="maskedWalletDetailsButtonTextAppearance"/><attr format="reference|color" name="maskedWalletDetailsButtonBackground"/><attr format="color" name="maskedWalletDetailsLogoTextColor"/><attr format="enum" name="maskedWalletDetailsLogoImageType"><enum name="classic" value="1"/><enum name="monochrome" value="2"/></attr></declare-styleable>
-    <!-- From: file:/D:/notufy/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
+    <!-- From: file:/C:/Users/pranav%20vij/Documents/notufy/notufy/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <dimen name="abc_action_bar_default_height_material">56dp</dimen>
     <dimen name="abc_action_bar_default_padding_material">4dp</dimen>
@@ -458,25 +458,25 @@
     <dimen name="abc_text_size_subtitle_material_toolbar">16dp</dimen>
     <dimen name="abc_text_size_title_material">20sp</dimen>
     <dimen name="abc_text_size_title_material_toolbar">20dp</dimen>
-    <!-- From: file:/D:/notufy/app/src/main/res/values/dimens.xml -->
+    <!-- From: file:/C:/Users/pranav%20vij/Documents/notufy/notufy/app/src/main/res/values/dimens.xml -->
     <eat-comment/>
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
-    <!-- From: file:/D:/notufy/app/build/intermediates/exploded-aar/com.doomonafireball.betterpickers/library/1.5.5/res/values/values.xml -->
+    <!-- From: file:/C:/Users/pranav%20vij/Documents/notufy/notufy/app/build/intermediates/exploded-aar/com.doomonafireball.betterpickers/library/1.5.5/res/values/values.xml -->
     <eat-comment/>
     <dimen name="ampm_label_size">16sp</dimen>
     <dimen name="ampm_left_padding">6dip</dimen>
     <dimen name="body_font_padding">4dp</dimen>
-    <!-- From: file:/D:/notufy/app/build/intermediates/exploded-aar/com.rengwuxian.materialedittext/library/2.0.3/res/values/values.xml -->
+    <!-- From: file:/C:/Users/pranav%20vij/Documents/notufy/notufy/app/build/intermediates/exploded-aar/com.rengwuxian.materialedittext/library/2.0.3/res/values/values.xml -->
     <eat-comment/>
     <dimen name="bottom_ellipsis_height">4dp</dimen>
     <dimen name="bottom_text_size">12sp</dimen>
-    <!-- From: file:/D:/notufy/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/21.0.3/res/values/values.xml -->
+    <!-- From: file:/C:/Users/pranav%20vij/Documents/notufy/notufy/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <dimen name="cardview_compat_inset_shadow">1dp</dimen>
     <dimen name="cardview_default_elevation">2dp</dimen>
     <dimen name="cardview_default_radius">2dp</dimen>
-    <!-- From: file:/D:/notufy/app/build/intermediates/exploded-aar/com.doomonafireball.betterpickers/library/1.5.5/res/values/values.xml -->
+    <!-- From: file:/C:/Users/pranav%20vij/Documents/notufy/notufy/app/build/intermediates/exploded-aar/com.doomonafireball.betterpickers/library/1.5.5/res/values/values.xml -->
     <eat-comment/>
     <dimen name="date_picker_component_width">270dp</dimen>
     <dimen name="date_picker_header_height">30dp</dimen>
@@ -485,33 +485,33 @@
     <dimen name="date_viewpager_height">275dip</dimen>
     <dimen name="day_number_select_circle_radius">16dp</dimen>
     <dimen name="day_number_size">16sp</dimen>
-    <!-- From: file:/D:/notufy/app/build/intermediates/exploded-aar/com.rengwuxian.materialedittext/library/2.0.3/res/values/values.xml -->
+    <!-- From: file:/C:/Users/pranav%20vij/Documents/notufy/notufy/app/build/intermediates/exploded-aar/com.rengwuxian.materialedittext/library/2.0.3/res/values/values.xml -->
     <eat-comment/>
     <dimen name="default_padding_bottom">8dp</dimen>
     <dimen name="default_padding_top">8dp</dimen>
-    <!-- From: file:/D:/notufy/app/build/intermediates/exploded-aar/com.doomonafireball.betterpickers/library/1.5.5/res/values/values.xml -->
+    <!-- From: file:/C:/Users/pranav%20vij/Documents/notufy/notufy/app/build/intermediates/exploded-aar/com.doomonafireball.betterpickers/library/1.5.5/res/values/values.xml -->
     <eat-comment/>
     <dimen name="dialog_button_font_size">14sp</dimen>
-    <!-- From: file:/D:/notufy/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
+    <!-- From: file:/C:/Users/pranav%20vij/Documents/notufy/notufy/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <item name="dialog_fixed_height_major" type="dimen">80%</item>
     <item name="dialog_fixed_height_minor" type="dimen">100%</item>
     <item name="dialog_fixed_width_major" type="dimen">320dp</item>
     <item name="dialog_fixed_width_minor" type="dimen">320dp</item>
-    <!-- From: file:/D:/notufy/app/build/intermediates/exploded-aar/com.doomonafireball.betterpickers/library/1.5.5/res/values/values.xml -->
+    <!-- From: file:/C:/Users/pranav%20vij/Documents/notufy/notufy/app/build/intermediates/exploded-aar/com.doomonafireball.betterpickers/library/1.5.5/res/values/values.xml -->
     <eat-comment/>
     <dimen name="dialpad_font_size">48sp</dimen>
     <dimen name="dialpad_font_size_ampm">24sp</dimen>
-    <!-- From: file:/D:/notufy/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
+    <!-- From: file:/C:/Users/pranav%20vij/Documents/notufy/notufy/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <item format="float" name="disabled_alpha_material_dark" type="dimen">0.30</item>
     <item format="float" name="disabled_alpha_material_light" type="dimen">0.26</item>
-    <!-- From: file:/D:/notufy/app/build/intermediates/exploded-aar/com.doomonafireball.betterpickers/library/1.5.5/res/values/values.xml -->
+    <!-- From: file:/C:/Users/pranav%20vij/Documents/notufy/notufy/app/build/intermediates/exploded-aar/com.doomonafireball.betterpickers/library/1.5.5/res/values/values.xml -->
     <eat-comment/>
     <dimen name="done_button_height">42dp</dimen>
     <dimen name="done_label_size">14sp</dimen>
     <dimen name="extra_time_label_margin">-30dp</dimen>
-    <!-- From: file:/D:/notufy/app/build/intermediates/exploded-aar/com.getbase/floatingactionbutton/1.9.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/pranav%20vij/Documents/notufy/notufy/app/build/intermediates/exploded-aar/com.getbase/floatingactionbutton/1.9.0/res/values/values.xml -->
     <eat-comment/>
     <dimen name="fab_actions_spacing">16dp</dimen>
     <dimen name="fab_icon_size">24dp</dimen>
@@ -523,19 +523,19 @@
     <dimen name="fab_size_mini">40dp</dimen>
     <dimen name="fab_size_normal">56dp</dimen>
     <dimen name="fab_stroke_width">1dp</dimen>
-    <!-- From: file:/D:/notufy/app/build/intermediates/exploded-aar/com.rengwuxian.materialedittext/library/2.0.3/res/values/values.xml -->
+    <!-- From: file:/C:/Users/pranav%20vij/Documents/notufy/notufy/app/build/intermediates/exploded-aar/com.rengwuxian.materialedittext/library/2.0.3/res/values/values.xml -->
     <eat-comment/>
     <dimen name="floating_label_text_size">12sp</dimen>
-    <!-- From: file:/D:/notufy/app/build/intermediates/exploded-aar/com.doomonafireball.betterpickers/library/1.5.5/res/values/values.xml -->
+    <!-- From: file:/C:/Users/pranav%20vij/Documents/notufy/notufy/app/build/intermediates/exploded-aar/com.doomonafireball.betterpickers/library/1.5.5/res/values/values.xml -->
     <eat-comment/>
     <dimen name="footer_height">48dip</dimen>
     <dimen name="header_height">96dip</dimen>
-    <!-- From: file:/D:/notufy/app/build/intermediates/exploded-aar/com.rengwuxian.materialedittext/library/2.0.3/res/values/values.xml -->
+    <!-- From: file:/C:/Users/pranav%20vij/Documents/notufy/notufy/app/build/intermediates/exploded-aar/com.rengwuxian.materialedittext/library/2.0.3/res/values/values.xml -->
     <eat-comment/>
     <dimen name="inner_components_spacing">8dp</dimen>
     <dimen name="inner_padding_left">0dp</dimen>
     <dimen name="inner_padding_right">0dp</dimen>
-    <!-- From: file:/D:/notufy/app/build/intermediates/exploded-aar/com.doomonafireball.betterpickers/library/1.5.5/res/values/values.xml -->
+    <!-- From: file:/C:/Users/pranav%20vij/Documents/notufy/notufy/app/build/intermediates/exploded-aar/com.doomonafireball.betterpickers/library/1.5.5/res/values/values.xml -->
     <eat-comment/>
     <dimen name="label_font_size">14sp</dimen>
     <dimen name="medium_date_font_size">48dp</dimen>
@@ -551,13 +551,13 @@
     <dimen name="month_list_item_header_height">50dp</dimen>
     <dimen name="month_select_circle_radius">45dp</dimen>
     <dimen name="picker_dimen">270dip</dimen>
-    <!-- From: file:/D:/notufy/app/build/intermediates/exploded-aar/org.jraf/android-switch-backport/1.4.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/pranav%20vij/Documents/notufy/notufy/app/build/intermediates/exploded-aar/org.jraf/android-switch-backport/1.4.0/res/values/values.xml -->
     <eat-comment/>
     <dimen name="preference_icon_minWidth">0dp</dimen>
     <dimen name="preference_item_padding_inner">8dip</dimen>
     <dimen name="preference_item_padding_side">8dip</dimen>
     <dimen name="preference_widget_width">48dp</dimen>
-    <!-- From: file:/D:/notufy/app/build/intermediates/exploded-aar/com.doomonafireball.betterpickers/library/1.5.5/res/values/values.xml -->
+    <!-- From: file:/C:/Users/pranav%20vij/Documents/notufy/notufy/app/build/intermediates/exploded-aar/com.doomonafireball.betterpickers/library/1.5.5/res/values/values.xml -->
     <eat-comment/>
     <dimen name="recurrence_picker_height">340dp</dimen>
     <dimen name="recurrence_picker_width">300dp</dimen>
@@ -572,37 +572,37 @@
     <dimen name="timer_padding_left">16dip</dimen>
     <dimen name="year_label_height">64dp</dimen>
     <dimen name="year_label_text_size">22dp</dimen>
-    <!-- From: file:/D:/notufy/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
+    <!-- From: file:/C:/Users/pranav%20vij/Documents/notufy/notufy/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <item name="action_bar_activity_content" type="id"/>
     <item name="action_bar_spinner" type="id"/>
     <item name="action_menu_divider" type="id"/>
     <item name="action_menu_presenter" type="id"/>
-    <!-- From: file:/D:/notufy/app/build/intermediates/exploded-aar/com.doomonafireball.betterpickers/library/1.5.5/res/values/values.xml -->
+    <!-- From: file:/C:/Users/pranav%20vij/Documents/notufy/notufy/app/build/intermediates/exploded-aar/com.doomonafireball.betterpickers/library/1.5.5/res/values/values.xml -->
     <eat-comment/>
     <item name="date_keyboard" type="id"/>
     <item name="date_month_int" type="id"/>
-    <!-- From: file:/D:/notufy/app/build/intermediates/exploded-aar/com.getbase/floatingactionbutton/1.9.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/pranav%20vij/Documents/notufy/notufy/app/build/intermediates/exploded-aar/com.getbase/floatingactionbutton/1.9.0/res/values/values.xml -->
     <eat-comment/>
     <item name="fab_expand_menu_button" type="id"/>
     <item name="fab_label" type="id"/>
-    <!-- From: file:/D:/notufy/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
+    <!-- From: file:/C:/Users/pranav%20vij/Documents/notufy/notufy/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <item name="home" type="id"/>
-    <!-- From: file:/D:/notufy/app/build/intermediates/exploded-aar/com.doomonafireball.betterpickers/library/1.5.5/res/values/values.xml -->
+    <!-- From: file:/C:/Users/pranav%20vij/Documents/notufy/notufy/app/build/intermediates/exploded-aar/com.doomonafireball.betterpickers/library/1.5.5/res/values/values.xml -->
     <eat-comment/>
     <item name="numbers_key" type="id"/>
-    <!-- From: file:/D:/notufy/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
+    <!-- From: file:/C:/Users/pranav%20vij/Documents/notufy/notufy/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <item name="progress_circular" type="id"/>
     <item name="progress_horizontal" type="id"/>
     <item name="split_action_bar" type="id"/>
     <item name="up" type="id"/>
     <integer name="abc_max_action_buttons">2</integer>
-    <!-- From: file:/D:/notufy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.0.0/res/values/version.xml -->
+    <!-- From: file:/C:/Users/pranav%20vij/Documents/notufy/notufy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.0.0/res/values/version.xml -->
     <eat-comment/>
     <integer name="google_play_services_version">7095000</integer>
-    <!-- From: file:/D:/notufy/app/build/intermediates/exploded-aar/com.doomonafireball.betterpickers/library/1.5.5/res/values/values.xml -->
+    <!-- From: file:/C:/Users/pranav%20vij/Documents/notufy/notufy/app/build/intermediates/exploded-aar/com.doomonafireball.betterpickers/library/1.5.5/res/values/values.xml -->
     <eat-comment/>
     <plurals name="daily">
         <item quantity="one">Daily</item>
@@ -644,7 +644,7 @@
         <item quantity="one">Weekly on <ns1:g id="days_of_week">%2$s</ns1:g></item>
         <item quantity="other">Every <ns1:g id="number">%1$d</ns1:g> weeks on <ns1:g id="days_of_week">%2$s</ns1:g></item>
     </plurals>
-    <!-- From: file:/D:/notufy/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
+    <!-- From: file:/C:/Users/pranav%20vij/Documents/notufy/notufy/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <string name="abc_action_bar_home_description">Navigate home</string>
     <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
@@ -662,26 +662,26 @@
     <string name="abc_shareactionprovider_share_with">Share with</string>
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
-    <!-- From: file:/D:/notufy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/7.0.0/res/values/admob_strings.xml -->
+    <!-- From: file:/C:/Users/pranav%20vij/Documents/notufy/notufy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/7.0.0/res/values/admob_strings.xml -->
     <eat-comment/>
     <string name="accept">Accept</string>
-    <!-- From: file:/D:/notufy/app/build/intermediates/exploded-aar/com.doomonafireball.betterpickers/library/1.5.5/res/values/values.xml -->
+    <!-- From: file:/C:/Users/pranav%20vij/Documents/notufy/notufy/app/build/intermediates/exploded-aar/com.doomonafireball.betterpickers/library/1.5.5/res/values/values.xml -->
     <eat-comment/>
     <string name="acessibility_recurrence_choose_end_date_description">change end date</string>
-    <!-- From: file:/D:/notufy/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/C:/Users/pranav%20vij/Documents/notufy/notufy/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="action_settings">Settings</string>
-    <!-- From: file:/D:/notufy/app/build/intermediates/exploded-aar/com.doomonafireball.betterpickers/library/1.5.5/res/values/values.xml -->
+    <!-- From: file:/C:/Users/pranav%20vij/Documents/notufy/notufy/app/build/intermediates/exploded-aar/com.doomonafireball.betterpickers/library/1.5.5/res/values/values.xml -->
     <eat-comment/>
     <item format="float" name="ampm_circle_radius_multiplier" type="string">0.19</item>
-    <!-- From: file:/D:/notufy/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/C:/Users/pranav%20vij/Documents/notufy/notufy/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="app_name">notufy</string>
-    <!-- From: file:/D:/notufy/app/build/intermediates/exploded-aar/com.doomonafireball.betterpickers/library/1.5.5/res/values/values.xml -->
+    <!-- From: file:/C:/Users/pranav%20vij/Documents/notufy/notufy/app/build/intermediates/exploded-aar/com.doomonafireball.betterpickers/library/1.5.5/res/values/values.xml -->
     <eat-comment/>
     <item format="float" name="circle_radius_multiplier" type="string">0.82</item>
     <item format="float" name="circle_radius_multiplier_24HourMode" type="string">0.85</item>
-    <!-- From: file:/D:/notufy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.0.0/res/values/common_strings.xml -->
+    <!-- From: file:/C:/Users/pranav%20vij/Documents/notufy/notufy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.0.0/res/values/common_strings.xml -->
     <eat-comment/>
     <string name="common_android_wear_notification_needs_update_text">An application requires an update to the Android Wear app.</string>
     <string name="common_android_wear_update_text">This app won\'t run unless you update the Android Wear app.</string>
@@ -715,36 +715,36 @@
     <string name="common_signin_button_text_long">Sign in with Google</string>
     <string name="commono_google_play_services_api_unavailable_text">This app requires one or more Google Play services that are not currently
 available. Please contact the developer for assistance.</string>
-    <!-- From: file:/D:/notufy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/7.0.0/res/values/admob_strings.xml -->
+    <!-- From: file:/C:/Users/pranav%20vij/Documents/notufy/notufy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/7.0.0/res/values/admob_strings.xml -->
     <eat-comment/>
     <string name="create_calendar_message">Allow Ad to create a calendar event?</string>
     <string name="create_calendar_title">Create calendar event</string>
-    <!-- From: file:/D:/notufy/app/build/intermediates/exploded-aar/com.doomonafireball.betterpickers/library/1.5.5/res/values/values.xml -->
+    <!-- From: file:/C:/Users/pranav%20vij/Documents/notufy/notufy/app/build/intermediates/exploded-aar/com.doomonafireball.betterpickers/library/1.5.5/res/values/values.xml -->
     <eat-comment/>
     <string name="day_c">DAY</string>
     <string name="day_of_week_label_typeface">sans-serif</string>
     <string name="day_picker_description">Month grid of days</string>
-    <!-- From: file:/D:/notufy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/7.0.0/res/values/admob_strings.xml -->
+    <!-- From: file:/C:/Users/pranav%20vij/Documents/notufy/notufy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/7.0.0/res/values/admob_strings.xml -->
     <eat-comment/>
     <string name="decline">Decline</string>
-    <!-- From: file:/D:/notufy/app/build/intermediates/exploded-aar/com.doomonafireball.betterpickers/library/1.5.5/res/values/values.xml -->
+    <!-- From: file:/C:/Users/pranav%20vij/Documents/notufy/notufy/app/build/intermediates/exploded-aar/com.doomonafireball.betterpickers/library/1.5.5/res/values/values.xml -->
     <eat-comment/>
     <string name="deleted_key">%1$s deleted</string>
     <string name="done_label">Done</string>
-    <!-- From: file:/D:/notufy/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/C:/Users/pranav%20vij/Documents/notufy/notufy/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="drawer_close">Drawer closed</string>
     <string name="drawer_open">Drawer opened</string>
-    <!-- From: file:/D:/notufy/app/build/intermediates/exploded-aar/com.doomonafireball.betterpickers/library/1.5.5/res/values/values.xml -->
+    <!-- From: file:/C:/Users/pranav%20vij/Documents/notufy/notufy/app/build/intermediates/exploded-aar/com.doomonafireball.betterpickers/library/1.5.5/res/values/values.xml -->
     <eat-comment/>
     <string name="endByDate">; until <ns1:g id="date">%s</ns1:g></string>
     <string name="every_weekday">"Every weekday (Mon\u2013Fri)"</string>
     <string name="expiration_picker_seperator">/</string>
-    <!-- From: file:/D:/notufy/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/C:/Users/pranav%20vij/Documents/notufy/notufy/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="hello_world">Hello world!</string>
-    <!-- From: file:/D:/notufy/app/build/intermediates/exploded-aar/com.doomonafireball.betterpickers/library/1.5.5/res/values/values.xml -->
+    <!-- From: file:/C:/Users/pranav%20vij/Documents/notufy/notufy/app/build/intermediates/exploded-aar/com.doomonafireball.betterpickers/library/1.5.5/res/values/values.xml -->
     <eat-comment/>
     <string name="hint_time_zone_search">Type country name</string>
     <string name="hms_picker_hours_label">H</string>
@@ -789,15 +789,15 @@ available. Please contact the developer for assistance.</string>
     <string name="select_minutes">Select minutes</string>
     <string name="select_year">Select year</string>
     <item format="float" name="selection_radius_multiplier" type="string">0.16</item>
-    <!-- From: file:/D:/notufy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/7.0.0/res/values/admob_strings.xml -->
+    <!-- From: file:/C:/Users/pranav%20vij/Documents/notufy/notufy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/7.0.0/res/values/admob_strings.xml -->
     <eat-comment/>
     <string name="store_picture_message">"Allow Ad to store image in Picture gallery?"</string>
     <string name="store_picture_title">Save image</string>
-    <!-- From: file:/D:/notufy/app/build/intermediates/exploded-aar/org.jraf/android-switch-backport/1.4.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/pranav%20vij/Documents/notufy/notufy/app/build/intermediates/exploded-aar/org.jraf/android-switch-backport/1.4.0/res/values/values.xml -->
     <eat-comment/>
     <string name="switch_off">OFF</string>
     <string name="switch_on">ON</string>
-    <!-- From: file:/D:/notufy/app/build/intermediates/exploded-aar/com.doomonafireball.betterpickers/library/1.5.5/res/values/values.xml -->
+    <!-- From: file:/C:/Users/pranav%20vij/Documents/notufy/notufy/app/build/intermediates/exploded-aar/com.doomonafireball.betterpickers/library/1.5.5/res/values/values.xml -->
     <eat-comment/>
     <item format="float" name="text_size_multiplier_inner" type="string">0.14</item>
     <item format="float" name="text_size_multiplier_normal" type="string">0.17</item>
@@ -809,7 +809,7 @@ available. Please contact the developer for assistance.</string>
     <string name="time_placeholder">--</string>
     <string name="time_separator">:</string>
     <string name="timer_delete">Delete</string>
-    <!-- From: file:/D:/notufy/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/C:/Users/pranav%20vij/Documents/notufy/notufy/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="title_activity_home">home</string>
     <string name="title_activity_hostel_send">hostel_send</string>
@@ -822,15 +822,15 @@ available. Please contact the developer for assistance.</string>
     <string name="title_activity_splash">splash</string>
     <string name="title_activity_uploadtest">uploadtest</string>
     <string name="title_subjectchoose">SubjectChoose</string>
-    <!-- From: file:/D:/notufy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/7.0.0/res/values/wallet_strings.xml -->
+    <!-- From: file:/C:/Users/pranav%20vij/Documents/notufy/notufy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/7.0.0/res/values/wallet_strings.xml -->
     <eat-comment/>
     <string name="wallet_buy_button_place_holder" translation_description="Text on a button that allows a user to make a payment with Google Wallet [CHAR LIMIT=30]">Buy with Google</string>
-    <!-- From: file:/D:/notufy/app/build/intermediates/exploded-aar/com.doomonafireball.betterpickers/library/1.5.5/res/values/values.xml -->
+    <!-- From: file:/C:/Users/pranav%20vij/Documents/notufy/notufy/app/build/intermediates/exploded-aar/com.doomonafireball.betterpickers/library/1.5.5/res/values/values.xml -->
     <eat-comment/>
     <string name="year_c">YEAR</string>
     <string name="year_picker_description">Year list</string>
     <string name="yearly_plain">Yearly</string>
-    <!-- From: file:/D:/notufy/app/src/main/res/values/styles.xml -->
+    <!-- From: file:/C:/Users/pranav%20vij/Documents/notufy/notufy/app/src/main/res/values/styles.xml -->
     <eat-comment/>
     <style name="AppBaseTheme" parent="Theme.AppCompat.NoActionBar">
         <item name="colorPrimary">@color/theme_dialer_primary</item>
@@ -841,7 +841,7 @@ available. Please contact the developer for assistance.</string>
 
 
     </style>
-    <!-- From: file:/D:/notufy/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
+    <!-- From: file:/C:/Users/pranav%20vij/Documents/notufy/notufy/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <style name="Base.TextAppearance.AppCompat" parent="android:TextAppearance">
         <item name="android:textColor">?android:textColorPrimary</item>
@@ -1595,7 +1595,7 @@ available. Please contact the developer for assistance.</string>
         <item name="android:scaleType">center</item>
         <item name="android:background">?attr/selectableItemBackground</item>
     </style>
-    <!-- From: file:/D:/notufy/app/build/intermediates/exploded-aar/com.doomonafireball.betterpickers/library/1.5.5/res/values/values.xml -->
+    <!-- From: file:/C:/Users/pranav%20vij/Documents/notufy/notufy/app/build/intermediates/exploded-aar/com.doomonafireball.betterpickers/library/1.5.5/res/values/values.xml -->
     <eat-comment/>
     <style name="BetterPickersDialogFragment">
         <item name="bpDialogBackground">@drawable/dialog_full_holo_dark</item>
@@ -1621,7 +1621,7 @@ available. Please contact the developer for assistance.</string>
         <item name="bpDividerColor">@color/default_divider_color_light</item>
         <item name="bpKeyboardIndicatorColor">@color/default_keyboard_indicator_color_light</item>
     </style>
-    <!-- From: file:/D:/notufy/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/21.0.3/res/values/values.xml -->
+    <!-- From: file:/C:/Users/pranav%20vij/Documents/notufy/notufy/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <style name="CardView">
         <item name="cardBackgroundColor">@color/cardview_light_background</item>
@@ -1637,7 +1637,7 @@ available. Please contact the developer for assistance.</string>
     <style name="CardView.Light">
         <item name="cardBackgroundColor">@color/cardview_light_background</item>
     </style>
-    <!-- From: file:/D:/notufy/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
+    <!-- From: file:/C:/Users/pranav%20vij/Documents/notufy/notufy/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <style name="Platform.AppCompat" parent="android:Theme">
         <item name="android:windowNoTitle">true</item>
@@ -1764,7 +1764,7 @@ available. Please contact the developer for assistance.</string>
         <item name="android:listChoiceIndicatorMultiple">@drawable/abc_btn_check_material</item>
     </style>
     <style name="Platform.AppCompat.Light.Dialog" parent="Platform.AppCompat.Dialog"/>
-    <!-- From: file:/D:/notufy/app/build/intermediates/exploded-aar/org.jraf/android-switch-backport/1.4.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/pranav%20vij/Documents/notufy/notufy/app/build/intermediates/exploded-aar/org.jraf/android-switch-backport/1.4.0/res/values/values.xml -->
     <eat-comment/>
     <style name="Preference.SwitchPreference" parent="">
         <item name="android:layout">@layout/preference</item>
@@ -1772,7 +1772,7 @@ available. Please contact the developer for assistance.</string>
         <item name="asb_switchTextOn">@string/switch_on</item>
         <item name="asb_switchTextOff">@string/switch_off</item>
     </style>
-    <!-- From: file:/D:/notufy/app/build/intermediates/exploded-aar/com.doomonafireball.betterpickers/library/1.5.5/res/values/values.xml -->
+    <!-- From: file:/C:/Users/pranav%20vij/Documents/notufy/notufy/app/build/intermediates/exploded-aar/com.doomonafireball.betterpickers/library/1.5.5/res/values/values.xml -->
     <eat-comment/>
     <style name="RecurrenceDayOfWeekStyle">
         <item name="android:layout_width">wrap_content</item>
@@ -1793,7 +1793,7 @@ available. Please contact the developer for assistance.</string>
         <item name="android:paddingTop">4dp</item>
         <item name="android:paddingBottom">4dp</item>
     </style>
-    <!-- From: file:/D:/notufy/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
+    <!-- From: file:/C:/Users/pranav%20vij/Documents/notufy/notufy/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <style name="RtlOverlay.Widget.AppCompat.ActionBar.TitleItem" parent="android:Widget">
         <item name="android:layout_gravity">center_vertical|left</item>
@@ -1877,7 +1877,7 @@ available. Please contact the developer for assistance.</string>
     <style name="TextAppearance.AppCompat.Widget.PopupMenu.Large" parent="Base.TextAppearance.AppCompat.Widget.PopupMenu.Large"/>
     <style name="TextAppearance.AppCompat.Widget.PopupMenu.Small" parent="Base.TextAppearance.AppCompat.Widget.PopupMenu.Small"/>
     <style name="TextAppearance.AppCompat.Widget.Switch" parent="Base.TextAppearance.AppCompat.Widget.Switch"/>
-    <!-- From: file:/D:/notufy/app/build/intermediates/exploded-aar/com.doomonafireball.betterpickers/library/1.5.5/res/values/values.xml -->
+    <!-- From: file:/C:/Users/pranav%20vij/Documents/notufy/notufy/app/build/intermediates/exploded-aar/com.doomonafireball.betterpickers/library/1.5.5/res/values/values.xml -->
     <eat-comment/>
     <style name="TextAppearance.EditEvent_Spinner" parent="@android:style/Widget.Holo.Light.Spinner">
         <item name="android:textSize">18sp</item>
@@ -1893,20 +1893,20 @@ available. Please contact the developer for assistance.</string>
         <!-- Switch thumb asset presents a dark background. -->
         <item name="android:textColor">@color/bpWhite</item>
     </style>
-    <!-- From: file:/D:/notufy/app/build/intermediates/exploded-aar/org.jraf/android-switch-backport/1.4.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/pranav%20vij/Documents/notufy/notufy/app/build/intermediates/exploded-aar/org.jraf/android-switch-backport/1.4.0/res/values/values.xml -->
     <eat-comment/>
     <style name="TextAppearance.Holo.Widget.Switch" parent="android:TextAppearance.Small">
 
         <!-- Switch thumb asset presents a dark background. -->
         <item name="android:textColor">@color/secondary_text_holo_dark</item>
     </style>
-    <!-- From: file:/D:/notufy/app/build/intermediates/exploded-aar/com.doomonafireball.betterpickers/library/1.5.5/res/values/values.xml -->
+    <!-- From: file:/C:/Users/pranav%20vij/Documents/notufy/notufy/app/build/intermediates/exploded-aar/com.doomonafireball.betterpickers/library/1.5.5/res/values/values.xml -->
     <eat-comment/>
     <style name="TextAppearance.RecurrencePickerStyle" parent="@android:style/TextAppearance">
         <item name="android:textSize">15sp</item>
         <item name="android:textColor">@color/dialog_text_color_holo_light</item>
     </style>
-    <!-- From: file:/D:/notufy/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
+    <!-- From: file:/C:/Users/pranav%20vij/Documents/notufy/notufy/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <style name="TextAppearance.Widget.AppCompat.ExpandedMenu.Item" parent="Base.TextAppearance.Widget.AppCompat.ExpandedMenu.Item"/>
     <style name="TextAppearance.Widget.AppCompat.Toolbar.Subtitle" parent="Base.TextAppearance.Widget.AppCompat.Toolbar.Subtitle"/>
@@ -1927,7 +1927,7 @@ available. Please contact the developer for assistance.</string>
         <item name="windowActionBar">false</item>
         <item name="android:windowNoTitle">true</item>
     </style>
-    <!-- From: file:/D:/notufy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/7.0.0/res/values/admob_iap_style.xml -->
+    <!-- From: file:/C:/Users/pranav%20vij/Documents/notufy/notufy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/7.0.0/res/values/admob_iap_style.xml -->
     <eat-comment/>
     <style name="Theme.IAPTheme" parent="android:Theme">
     <item name="android:windowIsTranslucent">true</item>
@@ -1937,7 +1937,7 @@ available. Please contact the developer for assistance.</string>
     <item name="android:windowIsFloating">true</item>
     <item name="android:backgroundDimEnabled">false</item>
   </style>
-    <!-- From: file:/D:/notufy/app/src/main/res/values/themes.xml -->
+    <!-- From: file:/C:/Users/pranav%20vij/Documents/notufy/notufy/app/src/main/res/values/themes.xml -->
     <eat-comment/>
     <style name="Theme.TranslucentActionBar" parent="@android:style/Theme.Holo.Light.DarkActionBar">
         <item name="android:actionBarStyle">@style/Widget.ActionBar</item>
@@ -1947,14 +1947,14 @@ available. Please contact the developer for assistance.</string>
         <item name="android:actionBarStyle">@style/Widget.ActionBar.Transparent</item>
         <item name="android:windowActionBarOverlay">true</item>
     </style>
-    <!-- From: file:/D:/notufy/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
+    <!-- From: file:/C:/Users/pranav%20vij/Documents/notufy/notufy/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <style name="ThemeOverlay.AppCompat" parent="Base.ThemeOverlay.AppCompat"/>
     <style name="ThemeOverlay.AppCompat.ActionBar" parent="Base.ThemeOverlay.AppCompat.ActionBar"/>
     <style name="ThemeOverlay.AppCompat.Dark" parent="Base.ThemeOverlay.AppCompat.Dark"/>
     <style name="ThemeOverlay.AppCompat.Dark.ActionBar" parent="Base.ThemeOverlay.AppCompat.Dark.ActionBar"/>
     <style name="ThemeOverlay.AppCompat.Light" parent="Base.ThemeOverlay.AppCompat.Light"/>
-    <!-- From: file:/D:/notufy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/7.0.0/res/values/wallet_styles.xml -->
+    <!-- From: file:/C:/Users/pranav%20vij/Documents/notufy/notufy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/7.0.0/res/values/wallet_styles.xml -->
     <eat-comment/>
     <style name="WalletFragmentDefaultButtonTextAppearance">
         <item name="android:textColor">@color/wallet_primary_text_holo_light</item>
@@ -1988,7 +1988,7 @@ available. Please contact the developer for assistance.</string>
         <item name="maskedWalletDetailsLogoTextColor">@color/wallet_bright_foreground_holo_dark</item>
         <item name="maskedWalletDetailsLogoImageType">classic</item>
     </style>
-    <!-- From: file:/D:/notufy/app/src/main/res/values/styles.xml -->
+    <!-- From: file:/C:/Users/pranav%20vij/Documents/notufy/notufy/app/src/main/res/values/styles.xml -->
     <eat-comment/>
     <style name="Widget.ActionBar" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
         <item name="android:background">@drawable/trans</item>
@@ -1996,7 +1996,7 @@ available. Please contact the developer for assistance.</string>
     <style name="Widget.ActionBar.Transparent">
         <item name="android:background">@android:color/transparent</item>
     </style>
-    <!-- From: file:/D:/notufy/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
+    <!-- From: file:/C:/Users/pranav%20vij/Documents/notufy/notufy/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <style name="Widget.AppCompat.ActionBar" parent="Base.Widget.AppCompat.ActionBar"/>
     <style name="Widget.AppCompat.ActionBar.Solid" parent="Base.Widget.AppCompat.ActionBar.Solid"/>
@@ -2051,7 +2051,7 @@ available. Please contact the developer for assistance.</string>
     <style name="Widget.AppCompat.Spinner.DropDown.ActionBar" parent="Base.Widget.AppCompat.Spinner.DropDown.ActionBar"/>
     <style name="Widget.AppCompat.Toolbar" parent="Base.Widget.AppCompat.Toolbar"/>
     <style name="Widget.AppCompat.Toolbar.Button.Navigation" parent="Base.Widget.AppCompat.Toolbar.Button.Navigation"/>
-    <!-- From: file:/D:/notufy/app/build/intermediates/exploded-aar/org.jraf/android-switch-backport/1.4.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/pranav%20vij/Documents/notufy/notufy/app/build/intermediates/exploded-aar/org.jraf/android-switch-backport/1.4.0/res/values/values.xml -->
     <eat-comment/>
     <style name="Widget.Holo.CompoundButton.Switch" parent="android:Widget.CompoundButton">
         <item name="asb_track">@drawable/switch_track_holo_dark</item>
@@ -2073,7 +2073,7 @@ available. Please contact the developer for assistance.</string>
         <item name="asb_switchMinWidth">96dip</item>
         <item name="asb_switchPadding">16dip</item>
     </style>
-    <!-- From: file:/D:/notufy/app/build/intermediates/exploded-aar/com.doomonafireball.betterpickers/library/1.5.5/res/values/values.xml -->
+    <!-- From: file:/C:/Users/pranav%20vij/Documents/notufy/notufy/app/build/intermediates/exploded-aar/com.doomonafireball.betterpickers/library/1.5.5/res/values/values.xml -->
     <eat-comment/>
     <style name="aosp_ampm_label">
         <item name="android:textSize">@dimen/ampm_label_size</item>
@@ -2133,13 +2133,13 @@ available. Please contact the developer for assistance.</string>
     <style name="medium_light_hms" parent="medium_light">
         <item name="android:textSize">@dimen/medium_font_size_hms</item>
     </style>
-    <!-- From: file:/D:/notufy/app/src/main/res/values/styles.xml -->
+    <!-- From: file:/C:/Users/pranav%20vij/Documents/notufy/notufy/app/src/main/res/values/styles.xml -->
     <eat-comment/>
     <style name="menu_labels_style">
         <item name="android:background">@drawable/fab_label_background</item>
         <item name="android:textColor">@color/white</item>
     </style>
-    <!-- From: file:/D:/notufy/app/build/intermediates/exploded-aar/com.doomonafireball.betterpickers/library/1.5.5/res/values/values.xml -->
+    <!-- From: file:/C:/Users/pranav%20vij/Documents/notufy/notufy/app/build/intermediates/exploded-aar/com.doomonafireball.betterpickers/library/1.5.5/res/values/values.xml -->
     <eat-comment/>
     <style name="tablet_dialpad">
         <item name="android:textSize">@dimen/tablet_dialpad_font_size</item>

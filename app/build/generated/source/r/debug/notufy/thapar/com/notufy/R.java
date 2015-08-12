@@ -2834,6 +2834,7 @@ containing a value of this type.
         public static final int clear_search=0x7f0a0130;
         public static final int collapseActionView=0x7f0a0029;
         public static final int collapsed=0x7f0a002e;
+        public static final int collapsetoolbar=0x7f0a00ae;
         public static final int date=0x7f0a00a0;
         public static final int date_keyboard=0x7f0a0004;
         public static final int date_month_int=0x7f0a0005;
@@ -2892,7 +2893,6 @@ containing a value of this type.
         public static final int expiration_seperator=0x7f0a00ac;
         public static final int fab_expand_menu_button=0x7f0a0006;
         public static final int fab_label=0x7f0a0007;
-        public static final int fakeToolbar=0x7f0a00ae;
         public static final int fb=0x7f0a0080;
         public static final int file_info=0x7f0a00ee;
         public static final int file_name=0x7f0a00ef;

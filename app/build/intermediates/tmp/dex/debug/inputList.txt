@@ -1,39 +1,40 @@
-D:\notufy\app\build\intermediates\classes\debug
-D:\notufy\app\build\intermediates\pre-dexed\debug\support-annotations-22.0.0-16f08de520ce1171b8353778a3a307d2749519b7.jar
-D:\notufy\app\build\intermediates\pre-dexed\debug\classes-4855c709afd4885d8371aa41049e7a52c9dd165e.jar
-D:\notufy\app\build\intermediates\pre-dexed\debug\classes-f13f3e41cbb291ab15c1da4b94e3099ac78b01e9.jar
-D:\notufy\app\build\intermediates\pre-dexed\debug\classes-0b96cd366db1d07d42f8a9e1d4845b8ba2ea71d5.jar
-D:\notufy\app\build\intermediates\pre-dexed\debug\classes-23095a733c5281b414081087f2c4a4c3f2388640.jar
-D:\notufy\app\build\intermediates\pre-dexed\debug\classes-9b43a0794ba48bfe95efe5319387f4314de7fa1b.jar
-D:\notufy\app\build\intermediates\pre-dexed\debug\classes-501401f72a7da04bb17e6f9e17932329569555dd.jar
-D:\notufy\app\build\intermediates\pre-dexed\debug\classes-eb5ec234870dc12c967062fbd8c8b62ae2a8471d.jar
-D:\notufy\app\build\intermediates\pre-dexed\debug\classes-a2e5a7ac3912e76f736177712bf14761eaa98a51.jar
-D:\notufy\app\build\intermediates\pre-dexed\debug\classes-62f30d9cfafa3f27d3e08ddb2f69efc16b7c0e46.jar
-D:\notufy\app\build\intermediates\pre-dexed\debug\classes-5fb4d8a9e0e744db3aadd995aaea8bf5bbf69d5c.jar
-D:\notufy\app\build\intermediates\pre-dexed\debug\classes-a77799ae900badb78292653f5864a8f1cd82c3d5.jar
-D:\notufy\app\build\intermediates\pre-dexed\debug\classes-0f2f2df3f308dd92a1a57ba53069c2971ec39beb.jar
-D:\notufy\app\build\intermediates\pre-dexed\debug\classes-51bec2be2229f14c3f8d12445b7539bd9585fd3a.jar
-D:\notufy\app\build\intermediates\pre-dexed\debug\classes-b22c585f5385626547647b86f2012a5b5842b246.jar
-D:\notufy\app\build\intermediates\pre-dexed\debug\android-async-http-1.4.5-7f5f50bf3417cf7234117804be235365f5de73cb.jar
-D:\notufy\app\build\intermediates\pre-dexed\debug\classes-4985293e63bebec29952783f6cd5e250f436017c.jar
-D:\notufy\app\build\intermediates\pre-dexed\debug\classes-f160ed8fbcd5858ce5ae9fb43ba27710927f6fba.jar
-D:\notufy\app\build\intermediates\pre-dexed\debug\library-2.4.0-f8e61942fd1dc3206fa146861050adfb8b3c0167.jar
-D:\notufy\app\build\intermediates\pre-dexed\debug\classes-056dde95be8d25f72c20fc716a038650e5e72fc7.jar
-D:\notufy\app\build\intermediates\pre-dexed\debug\classes-cdf24faa2deb6d0500744f3d3149aaed3bfbc453.jar
-D:\notufy\app\build\intermediates\pre-dexed\debug\picasso-2.5.2-755ffded28f86dccead45ac7fbf6e8f977b1c9aa.jar
-D:\notufy\app\build\intermediates\pre-dexed\debug\classes-de9e80d83d588888d339250f09c1641555c77c9f.jar
-D:\notufy\app\build\intermediates\pre-dexed\debug\classes-ce866b60cc93a32aaa5d17d78f44da29d33b07f1.jar
-D:\notufy\app\build\intermediates\pre-dexed\debug\gson-2.3-2d9793f575993e5874ae81a711de87610260aca7.jar
-D:\notufy\app\build\intermediates\pre-dexed\debug\internal_impl-22.0.0-2d7fbf27f498a338acbaee3e4269b7ec895bf082.jar
-D:\notufy\app\build\intermediates\pre-dexed\debug\ion-2.1.6-563f8a779b38c713f991f263b3d846c380245609.jar
-D:\notufy\app\build\intermediates\pre-dexed\debug\classes-fed040de47e9f107d75d33b38226d6c486702b59.jar
-D:\notufy\app\build\intermediates\pre-dexed\debug\classes-c5572aeae04462920605fda30e281f37dcb37974.jar
-D:\notufy\app\build\intermediates\pre-dexed\debug\classes-63803ebdd8958b9cb7b6465e3fc714ca29c0490b.jar
-D:\notufy\app\build\intermediates\pre-dexed\debug\classes-b5e15991b5ec81e7e71aaa7e1127c535cf94a45e.jar
-D:\notufy\app\build\intermediates\pre-dexed\debug\classes-63883e7bdb2529aafb3c9be995764e637975af34.jar
-D:\notufy\app\build\intermediates\pre-dexed\debug\classes-84cf8c0238b23bd2703313a019085be9e8f8874f.jar
-D:\notufy\app\build\intermediates\pre-dexed\debug\androidasync-2.1.6-3b281b1b15b3420808836766583199fd8f6089e5.jar
-D:\notufy\app\build\intermediates\pre-dexed\debug\classes-6b5050e23430498c606777790b379cddce098c3d.jar
-D:\notufy\app\build\intermediates\pre-dexed\debug\classes-bb8401a86d7d0e7afc5ab0872c61028a00fbb1bc.jar
-D:\notufy\app\build\intermediates\pre-dexed\debug\classes-1b85854b31c9f9c6d5660afaca029db0847dfd1a.jar
-D:\notufy\app\build\intermediates\pre-dexed\debug\classes-66a5ae6b2bc3f561e78feb7dbe8ea9ad16e919d3.jar
+C:\Users\pranav vij\Documents\notufy\notufy\app\build\intermediates\classes\debug
+C:\Users\pranav vij\Documents\notufy\notufy\app\build\intermediates\pre-dexed\debug\support-annotations-22.0.0-5cf7ff3f679db396b120c2e1f8323e98466ffa7e.jar
+C:\Users\pranav vij\Documents\notufy\notufy\app\build\intermediates\pre-dexed\debug\classes-582c4b295537c23f4bf6a4adcfb83d318ef290e5.jar
+C:\Users\pranav vij\Documents\notufy\notufy\app\build\intermediates\pre-dexed\debug\classes-56141909257dda3b0312668917035b6e8baa1df7.jar
+C:\Users\pranav vij\Documents\notufy\notufy\app\build\intermediates\pre-dexed\debug\classes-0686a0433edab6e19f06c4e83b83c3b5c40f6d99.jar
+C:\Users\pranav vij\Documents\notufy\notufy\app\build\intermediates\pre-dexed\debug\classes-5a6abe5b9809846ec159a589e8b45d97d1d70b18.jar
+C:\Users\pranav vij\Documents\notufy\notufy\app\build\intermediates\pre-dexed\debug\classes-b03c88366270f9e55af8aa9391c3137e54c9679c.jar
+C:\Users\pranav vij\Documents\notufy\notufy\app\build\intermediates\pre-dexed\debug\classes-ad006e3218606816afd565b0642fdae57c459d45.jar
+C:\Users\pranav vij\Documents\notufy\notufy\app\build\intermediates\pre-dexed\debug\classes-9d64e603bc381f524de26b68f73c4e66c4ae8b3e.jar
+C:\Users\pranav vij\Documents\notufy\notufy\app\build\intermediates\pre-dexed\debug\classes-4f4d329fb149e0c5ac4981db455c2aec6e71d8e9.jar
+C:\Users\pranav vij\Documents\notufy\notufy\app\build\intermediates\pre-dexed\debug\classes-002cddc0b9b845b38aa22ceb00bca0a193d2e73f.jar
+C:\Users\pranav vij\Documents\notufy\notufy\app\build\intermediates\pre-dexed\debug\classes-ec0f20fbfae9e833456d99383c57dbf041f5221a.jar
+C:\Users\pranav vij\Documents\notufy\notufy\app\build\intermediates\pre-dexed\debug\classes-eeb53c929a6ef7522a4345ccc5f3386edfa4986e.jar
+C:\Users\pranav vij\Documents\notufy\notufy\app\build\intermediates\pre-dexed\debug\classes-ceea764673b88a8dff5072c75400468939e20b68.jar
+C:\Users\pranav vij\Documents\notufy\notufy\app\build\intermediates\pre-dexed\debug\classes-dd308fc7f2c55a71066eb00db9e4144755870f51.jar
+C:\Users\pranav vij\Documents\notufy\notufy\app\build\intermediates\pre-dexed\debug\classes-ea664c423c0be7315e249c0defe487fb4c43376f.jar
+C:\Users\pranav vij\Documents\notufy\notufy\app\build\intermediates\pre-dexed\debug\classes-d43a3c077c0431d345246fd3fd5fc7f5b910c40f.jar
+C:\Users\pranav vij\Documents\notufy\notufy\app\build\intermediates\pre-dexed\debug\android-async-http-1.4.5-6ac91dc28f8090f45696cd00928542e81a36ad23.jar
+C:\Users\pranav vij\Documents\notufy\notufy\app\build\intermediates\pre-dexed\debug\classes-5de28be480eefcc025c8a2ea49303b28f3545ab1.jar
+C:\Users\pranav vij\Documents\notufy\notufy\app\build\intermediates\pre-dexed\debug\classes-28385b3f69045e509a2f629a4bc312ada0316bd0.jar
+C:\Users\pranav vij\Documents\notufy\notufy\app\build\intermediates\pre-dexed\debug\library-2.4.0-2e090afd335c0bc6da13b47f2a32d26eb1a8fe73.jar
+C:\Users\pranav vij\Documents\notufy\notufy\app\build\intermediates\pre-dexed\debug\classes-a1502bd1d5f3624505f01fe48512f05ecb6e3d89.jar
+C:\Users\pranav vij\Documents\notufy\notufy\app\build\intermediates\pre-dexed\debug\classes-67d0ef725e3eca3a7af6ebdc08e2fc03c7aeb121.jar
+C:\Users\pranav vij\Documents\notufy\notufy\app\build\intermediates\pre-dexed\debug\picasso-2.5.2-27761a80262d41376b7a14c41f456c7acee2f560.jar
+C:\Users\pranav vij\Documents\notufy\notufy\app\build\intermediates\pre-dexed\debug\classes-13848cd91c4d5900a1742709b6a9b30e3b6ccaa2.jar
+C:\Users\pranav vij\Documents\notufy\notufy\app\build\intermediates\pre-dexed\debug\classes-4cd2291ba3d60d932b552d1ab8b19d7be9af2415.jar
+C:\Users\pranav vij\Documents\notufy\notufy\app\build\intermediates\pre-dexed\debug\gson-2.3-f5dcfedb58a8365f19f6fca645314182c4312c99.jar
+C:\Users\pranav vij\Documents\notufy\notufy\app\build\intermediates\pre-dexed\debug\internal_impl-22.0.0-59904514a757aee1e98300efa144b9604516905c.jar
+C:\Users\pranav vij\Documents\notufy\notufy\app\build\intermediates\pre-dexed\debug\ion-2.1.6-b07c0f7c30349f0372f2611c41503879351bda96.jar
+C:\Users\pranav vij\Documents\notufy\notufy\app\build\intermediates\pre-dexed\debug\classes-7b93a51111e9bf25318286910a1ad724a4d441f3.jar
+C:\Users\pranav vij\Documents\notufy\notufy\app\build\intermediates\pre-dexed\debug\classes-1b69e8425aeb16636df939d128b137047abd35e5.jar
+C:\Users\pranav vij\Documents\notufy\notufy\app\build\intermediates\pre-dexed\debug\classes-c59abc7a834feb08fc40cb3eeb6b0074d52dbe51.jar
+C:\Users\pranav vij\Documents\notufy\notufy\app\build\intermediates\pre-dexed\debug\classes-9fee8a58b7a7a0360eea98778a38bd8d9b2778bb.jar
+C:\Users\pranav vij\Documents\notufy\notufy\app\build\intermediates\pre-dexed\debug\classes-e84e7bb39661f3ba603ad9acc309973f21d6a6ca.jar
+C:\Users\pranav vij\Documents\notufy\notufy\app\build\intermediates\pre-dexed\debug\classes-5beff86eea370dacf8f6187138710be644d1f985.jar
+C:\Users\pranav vij\Documents\notufy\notufy\app\build\intermediates\pre-dexed\debug\androidasync-2.1.6-3259471832ce8fbda775eb6cd23b69c0b0120961.jar
+C:\Users\pranav vij\Documents\notufy\notufy\app\build\intermediates\pre-dexed\debug\classes-cde19f3b83ff999e617d24608508622ba6f77c58.jar
+C:\Users\pranav vij\Documents\notufy\notufy\app\build\intermediates\pre-dexed\debug\classes-7add75541fbebdca51d3b0fe8f897d744cdc23c6.jar
+C:\Users\pranav vij\Documents\notufy\notufy\app\build\intermediates\pre-dexed\debug\classes-3dd2a2131a724dc14a717ee2d373ffe395245d90.jar
+C:\Users\pranav vij\Documents\notufy\notufy\app\build\intermediates\pre-dexed\debug\classes-3ff69a019ba9bd646c32d53289654e82b82b208c.jar

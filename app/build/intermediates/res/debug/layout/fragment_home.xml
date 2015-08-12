@@ -6,28 +6,29 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Fragment_Home">
-    <View
-        android:id="@+id/fakeToolbar"
-        android:background="@color/theme_dialer_primary"
+    <RelativeLayout
+        android:id="@+id/collapsetoolbar"
         android:layout_width="match_parent"
-        android:layout_height="?attr/actionBarSize"
-        android:layout_alignParentTop="true" />
+        android:layout_height="wrap_content">
+        <include
+            android:id="@+id/screen_default_toolbar"
+            layout="@layout/tool_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <notufy.thapar.com.notufy.SlidingTabLayout
+            android:id="@+id/fragment_home_pager_sliding_tab"
+            android:layout_width="match_parent"
+            android:layout_below="@+id/screen_default_toolbar"
 
-
-    <notufy.thapar.com.notufy.SlidingTabLayout
-        android:id="@+id/fragment_home_pager_sliding_tab"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/fakeToolbar"
-        android:background="@color/theme_dialer_primary"
-        android:elevation="4dp"
-        />
-
+            android:layout_height="wrap_content"
+            android:background="@color/theme_dialer_primary"
+            android:elevation="4dp" />
+    </RelativeLayout>
     <android.support.v4.view.ViewPager
         android:id="@+id/fragment_home_view_pager"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/fragment_home_pager_sliding_tab"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/collapsetoolbar"
         android:background="@android:color/transparent"
         />
 
@@ -47,4 +48,4 @@
             android:layout_alignParentEnd="true">
         </com.getbase.floatingactionbutton.FloatingActionsMenu>
 
-</RelativeLayout><!-- From: file:/D:/notufy/app/src/main/res/layout/fragment_home.xml -->
+</RelativeLayout><!-- From: file:/C:/Users/pranav%20vij/Documents/notufy/notufy/app/src/main/res/layout/fragment_home.xml -->

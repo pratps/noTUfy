@@ -1,15 +1,23 @@
 package notufy.thapar.com.notufy.Fragments;
 
+import android.animation.ValueAnimator;
+import android.annotation.TargetApi;
 import android.content.Context;
 import android.content.res.Resources;
 import android.graphics.Color;
+import android.os.Build;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.view.ViewPager;
+import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.ViewTreeObserver;
+import android.view.animation.AccelerateInterpolator;
+import android.view.animation.DecelerateInterpolator;
+import android.widget.RelativeLayout;
 
 
 import com.getbase.floatingactionbutton.FloatingActionButton;
@@ -30,25 +38,31 @@ public class HomeFragment extends Fragment {
     private static final String TAG = HomeFragment.class.getSimpleName();
     ViewPager pager;
     View v;
+    public  Toolbar mToolBar;
     public static View faketoolbar;
     HomePagerAdapter adapter;
-
+    private int scrolledDistance = 0;
+    private static final int HIDE_THRESHOLD = 20;
     SlidingTabLayout tabs;
-    Context mContext;
-
+    private boolean controlsVisible = true;
     CharSequence Titles[]={"Teachers","Societies","Hostel"};
     int Numboftabs =3;
     FloatingActionsMenu menu;
+    int ToolbarHeight=0;
+    boolean animationdelay=true;
+    RelativeLayout collapsablecontainer;
+    RelativeLayout homecontentmain;
     public static HomeFragment newInstance() {
         return new HomeFragment();
     }
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         v = inflater.inflate(R.layout.fragment_home, container, false);
-
+        homecontentmain=(RelativeLayout)v.findViewById(R.id.fragment_home_content_main);
+        collapsablecontainer=(RelativeLayout)v.findViewById(R.id.collapsetoolbar);
         adapter =  new HomePagerAdapter(getActivity().getSupportFragmentManager(),Titles,Numboftabs);
+        mToolBar=(Toolbar)v.findViewById(R.id.screen_default_toolbar);
         menu=(FloatingActionsMenu)v.findViewById(R.id.menu);
-
-        faketoolbar=v.findViewById(R.id.fakeToolbar);
+        //faketoolbar=v.findViewById(R.id.fakeToolbar);
         // Assigning ViewPager View and setting the adapter
         pager = (ViewPager) v.findViewById(R.id.fragment_home_view_pager);
         pager.setAdapter(adapter);
@@ -69,6 +83,15 @@ public class HomeFragment extends Fragment {
         // Setting the ViewPager For the SlidingTabsLayout
         tabs.setViewPager(pager);
         loadfloatingButtons();
+        mToolBar.getViewTreeObserver().addOnGlobalLayoutListener(new ViewTreeObserver.OnGlobalLayoutListener() {
+            @TargetApi(Build.VERSION_CODES.JELLY_BEAN)
+            @Override
+            public void onGlobalLayout() {
+                mToolBar.getViewTreeObserver().removeOnGlobalLayoutListener(this);
+                ((logined)getActivity()).setUpNavigationDrawer(mToolBar);
+                ToolbarHeight=mToolBar.getHeight();
+            }
+        });
         return v;
     }
 
@@ -90,15 +113,6 @@ public class HomeFragment extends Fragment {
         }
         return sectionTabsListItens;
     }
-    /*
-    private void loadfloatingButtons() {
-        FloatingActionButton add=new FloatingActionButton(getActivity());
-        add.setTitle("data");
-        add.setVisibility(FloatingActionButton.VISIBLE);
-        menu.addButton(add);
-
-    }
-    */
     private void loadfloatingButtons() {
         config conf=new config(getActivity());
         int user_type=config.parseInt(conf.getUsercode());
@@ -152,5 +166,33 @@ public class HomeFragment extends Fragment {
         }
     }
 
-
+    @Override
+    public void onActivityCreated(Bundle savedInstanceState) {
+        super.onActivityCreated(savedInstanceState);
+    }
+//
+//    @TargetApi(Build.VERSION_CODES.JELLY_BEAN)
+//    public  void animateHeight(int dy) {
+//        scrolledDistance+=dy;
+//        if (collapsablecontainer!=null) {
+//            if (scrolledDistance > ToolbarHeight) {
+//                Log.d("distance","this is crazy"+ToolbarHeight);
+//            }
+//            else {
+//                if (scrolledDistance > HIDE_THRESHOLD && controlsVisible) {
+//                        collapsablecontainer.animate().translationY(-mToolBar.getHeight()).setInterpolator(new AccelerateInterpolator(2));
+//                        controlsVisible = false;
+//                        scrolledDistance = 0;
+//                    } else if (scrolledDistance < -HIDE_THRESHOLD && !controlsVisible) {
+//                        collapsablecontainer.animate().translationY(0).setInterpolator(new DecelerateInterpolator(2));
+//
+////                        ViewGroup.LayoutParams params=((logined)getActivity()).getMain_content().getLayoutParams();
+////                        params.height-=mToolBar.getHeight();
+////                        ((logined)getActivity()).getMain_content().setLayoutParams(params);
+//                        controlsVisible = true;
+//                        scrolledDistance = 0;
+//                    }
+//            }
+//        }
+//    }
 }

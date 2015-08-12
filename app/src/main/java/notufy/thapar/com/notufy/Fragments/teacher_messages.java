@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v4.widget.SwipeRefreshLayout.OnRefreshListener;
+import android.support.v7.app.ActionBar;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
@@ -15,6 +16,10 @@ import android.view.ViewGroup;
 import android.view.animation.AccelerateInterpolator;
 import android.view.animation.DecelerateInterpolator;
 import android.widget.Toast;
+
+import com.github.ksoichiro.android.observablescrollview.ObservableRecyclerView;
+import com.github.ksoichiro.android.observablescrollview.ObservableScrollViewCallbacks;
+import com.github.ksoichiro.android.observablescrollview.ScrollState;
 
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -31,13 +36,10 @@ import notufy.thapar.com.notufy.R;
 import notufy.thapar.com.notufy.config;
 import notufy.thapar.com.notufy.dataBase.dataBase;
 
-public class teacher_messages extends Fragment implements OnRefreshListener{
-    private RecyclerView mRecyclerView;
+public class teacher_messages extends Fragment implements ObservableScrollViewCallbacks,OnRefreshListener{
+    private ObservableRecyclerView mRecyclerView;
     private List<teacher_message> mListItemsCard;
     String server_file="/teacher_sync.php";
-    private static final int HIDE_THRESHOLD = 20;
-    private int scrolledDistance = 0;
-    private boolean controlsVisible = true;
     private SwipeRefreshLayout mSwipeRefreshLayout;
     TeacherTab_Adapter messageadapter;
     public static teacher_messages newInstance() {
@@ -46,10 +48,11 @@ public class teacher_messages extends Fragment implements OnRefreshListener{
     }
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View v=inflater.inflate(R.layout.fragment_logined_messages, container, false);
-        mRecyclerView = (RecyclerView) v.findViewById(R.id.messagelist);
+        mRecyclerView = (ObservableRecyclerView) v.findViewById(R.id.messagelist);
         mSwipeRefreshLayout=(SwipeRefreshLayout)v.findViewById(R.id.swipeteachermessage);
         mSwipeRefreshLayout.setOnRefreshListener(this);
-        mSwipeRefreshLayout.setColorSchemeColors(Color.parseColor("#F44336"), Color.parseColor("#29B6F6"),Color.parseColor("#4CAF50"));
+        mSwipeRefreshLayout.setColorSchemeColors(Color.parseColor("#F44336"), Color.parseColor("#29B6F6"), Color.parseColor("#4CAF50"));
+        mRecyclerView.setScrollViewCallbacks(this);
         loadInfoView();
         return v;
     }
@@ -65,6 +68,7 @@ public class teacher_messages extends Fragment implements OnRefreshListener{
         mListItemsCard=new dataBase(getActivity()).get_teacher_messages(x.longValue());
 
         messageadapter=new TeacherTab_Adapter(mListItemsCard,getActivity());
+
         mRecyclerView.setOnScrollListener(new RecyclerView.OnScrollListener() {
             @Override
             public void onScrollStateChanged(RecyclerView recyclerView, int newState) {
@@ -76,23 +80,20 @@ public class teacher_messages extends Fragment implements OnRefreshListener{
                 super.onScrolled(recyclerView, dx, dy);
                 int firstVisibleItem = ((LinearLayoutManager) recyclerView.getLayoutManager()).findFirstVisibleItemPosition();
                 //show views if first item is first visible position and views are hidden
-
-                    if (scrolledDistance > HIDE_THRESHOLD && controlsVisible) {
-                        logined.mToolBar.animate().translationY(-logined.mToolBar.getHeight()).setInterpolator(new AccelerateInterpolator(2));
-                        logined.main_content.animate().translationY(-logined.mToolBar.getHeight()).setInterpolator(new AccelerateInterpolator(2));
-                        controlsVisible = false;
-                        scrolledDistance = 0;
-                    } else if (scrolledDistance < -HIDE_THRESHOLD && !controlsVisible) {
-                        logined.mToolBar.animate().translationY(0).setInterpolator(new DecelerateInterpolator(2));
-                        logined.main_content.animate().translationY(0).setInterpolator(new DecelerateInterpolator(2));
-                        controlsVisible = true;
-                        scrolledDistance = 0;
-                    }
-
-
-                if((controlsVisible && dy>0) || (!controlsVisible && dy<0)) {
-                    scrolledDistance += dy;
-                }
+//
+//                    if (scrolledDistance > HIDE_THRESHOLD && controlsVisible) {
+//                        logined.mToolBar.animate().translationY(-logined.mToolBar.getHeight()).setInterpolator(new AccelerateInterpolator(2));
+//                        logined.main_content.animate().translationY(-logined.mToolBar.getHeight()).setInterpolator(new AccelerateInterpolator(2));
+//                        controlsVisible = false;
+//                        scrolledDistance = 0;
+//                    } else if (scrolledDistance < -HIDE_THRESHOLD && !controlsVisible) {
+//                        logined.mToolBar.animate().translationY(0).setInterpolator(new DecelerateInterpolator(2));
+//                        logined.main_content.animate().translationY(0).setInterpolator(new DecelerateInterpolator(2));
+//                        controlsVisible = true;
+//                        scrolledDistance = 0;
+//                    }
+                //((logined)getActivity()).getHomeFragment().animateHeight(dy);
+                Log.d("this is not done","cool");
             }
         });
         mRecyclerView.setAdapter(messageadapter);
@@ -199,5 +200,31 @@ public class teacher_messages extends Fragment implements OnRefreshListener{
         }
         mRecyclerView.scrollToPosition(0);
     }
+    /// Observable ScrollView RecyclerCallbacks
+    @Override
+    public void onScrollChanged(int i, boolean b, boolean b1) {
 
+    }
+
+    @Override
+    public void onDownMotionEvent() {
+
+    }
+
+    @Override
+    public void onUpOrCancelMotionEvent(ScrollState scrollState) {
+        ActionBar ab = ((logined)getActivity()).getSupportActionBar();
+        if (ab == null) {
+            return;
+        }
+        if (scrollState == ScrollState.UP) {
+            if (ab.isShowing()) {
+                ab.hide();
+            }
+        } else if (scrollState == ScrollState.DOWN) {
+            if (!ab.isShowing()) {
+                ab.show();
+            }
+        }
+    }
 }

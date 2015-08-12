@@ -7,6 +7,7 @@ import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.widget.SwipeRefreshLayout;
+import android.support.v7.app.ActionBar;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
@@ -14,6 +15,10 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Toast;
+
+import com.github.ksoichiro.android.observablescrollview.ObservableRecyclerView;
+import com.github.ksoichiro.android.observablescrollview.ObservableScrollViewCallbacks;
+import com.github.ksoichiro.android.observablescrollview.ScrollState;
 
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -31,8 +36,8 @@ import notufy.thapar.com.notufy.dataBase.dataBase;
 import notufy.thapar.com.notufy.R;
 
 
-public class society_messages extends Fragment implements SwipeRefreshLayout.OnRefreshListener {
-    private RecyclerView mRecyclerView;
+public class society_messages extends Fragment implements ObservableScrollViewCallbacks,SwipeRefreshLayout.OnRefreshListener {
+    private ObservableRecyclerView mRecyclerView;
     private SwipeRefreshLayout mSwipeRefreshLayout;
     SocietyTab_Adapter societyadapter;
     String server_file="/society_sync.php";
@@ -42,8 +47,8 @@ public class society_messages extends Fragment implements SwipeRefreshLayout.OnR
     }
     public View onCreateView(LayoutInflater inflater, ViewGroup container,Bundle savedInstanceState) {
         View v=inflater.inflate(R.layout.fragment_society, container, false);
-        mRecyclerView = (RecyclerView) v.findViewById(R.id.societylist);
-
+        mRecyclerView = (ObservableRecyclerView) v.findViewById(R.id.societylist);
+        mRecyclerView.setScrollViewCallbacks(this);
         mSwipeRefreshLayout=(SwipeRefreshLayout)v.findViewById(R.id.swipesocietymessage);
         mSwipeRefreshLayout.setOnRefreshListener(this);
         mSwipeRefreshLayout.setColorSchemeColors(Color.parseColor("#F44336"), Color.parseColor("#29B6F6"),Color.parseColor("#4CAF50"));
@@ -170,5 +175,34 @@ public class society_messages extends Fragment implements SwipeRefreshLayout.OnR
         mRecyclerView.scrollToPosition(0);
 
 
+    }
+
+
+    /// Observable ScrollView RecyclerCallbacks
+    @Override
+    public void onScrollChanged(int i, boolean b, boolean b1) {
+
+    }
+
+    @Override
+    public void onDownMotionEvent() {
+
+    }
+
+    @Override
+    public void onUpOrCancelMotionEvent(ScrollState scrollState) {
+        ActionBar ab = ((logined)getActivity()).getSupportActionBar();
+        if (ab == null) {
+            return;
+        }
+        if (scrollState == ScrollState.UP) {
+            if (ab.isShowing()) {
+                ab.hide();
+            }
+        } else if (scrollState == ScrollState.DOWN) {
+            if (!ab.isShowing()) {
+                ab.show();
+            }
+        }
     }
 }

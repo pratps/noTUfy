@@ -29,4 +29,4 @@
         android:textSize="@dimen/done_label_size"
         android:textColor="@color/done_text_color" />
 </LinearLayout>
-<!-- From: file:/home/fchauveau/dev/workspace/android-betterpickers/library/src/main/res/layout/calendar_date_picker_done_button.xml --><!-- From: file:/D:/notufy/app/build/intermediates/exploded-aar/com.doomonafireball.betterpickers/library/1.5.5/res/layout/calendar_date_picker_done_button.xml -->
+<!-- From: file:/home/fchauveau/dev/workspace/android-betterpickers/library/src/main/res/layout/calendar_date_picker_done_button.xml --><!-- From: file:/C:/Users/pranav%20vij/Documents/notufy/notufy/app/build/intermediates/exploded-aar/com.doomonafireball.betterpickers/library/1.5.5/res/layout/calendar_date_picker_done_button.xml -->

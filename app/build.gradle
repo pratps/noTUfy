@@ -7,7 +7,7 @@ android {
     defaultConfig {
         applicationId "notufy.thapar.com.notufy"
         minSdkVersion 15
-        targetSdkVersion 21
+        targetSdkVersion 22
         versionCode 1
         versionName "1.0"
     }
@@ -41,6 +41,7 @@ dependencies {
     compile 'com.loopj.android:android-async-http:1.4.5'
     compile 'com.google.code.gson:gson:2.2.4'
     compile 'com.getbase:floatingactionbutton:1.9.0'
+    compile 'com.github.ksoichiro:android-observablescrollview:1.5.1'
     compile('com.doomonafireball.betterpickers:library:1.5.5') {
         exclude group: 'com.android.support', module: 'support-v4'
     }

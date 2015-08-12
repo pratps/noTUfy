@@ -5,11 +5,11 @@
     android:layout_width="match_parent"
     android:id="@+id/swipehostelmessage"
     android:layout_height="match_parent" >
-    <android.support.v7.widget.RecyclerView
+    <com.github.ksoichiro.android.observablescrollview.ObservableRecyclerView
         android:id="@+id/messagelist"
         android:scrollbars="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 
 </android.support.v4.widget.SwipeRefreshLayout>
-<!-- From: file:/D:/notufy/app/src/main/res/layout/fragment_hostel_messages.xml -->
+<!-- From: file:/C:/Users/pranav%20vij/Documents/notufy/notufy/app/src/main/res/layout/fragment_hostel_messages.xml -->

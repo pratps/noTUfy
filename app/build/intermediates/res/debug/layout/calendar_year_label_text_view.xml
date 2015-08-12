@@ -22,4 +22,4 @@
     android:gravity="center"
     android:textColor="@color/date_picker_year_selector"
     android:textSize="@dimen/year_label_text_size" />
-<!-- From: file:/home/fchauveau/dev/workspace/android-betterpickers/library/src/main/res/layout/calendar_year_label_text_view.xml --><!-- From: file:/D:/notufy/app/build/intermediates/exploded-aar/com.doomonafireball.betterpickers/library/1.5.5/res/layout/calendar_year_label_text_view.xml -->
+<!-- From: file:/home/fchauveau/dev/workspace/android-betterpickers/library/src/main/res/layout/calendar_year_label_text_view.xml --><!-- From: file:/C:/Users/pranav%20vij/Documents/notufy/notufy/app/build/intermediates/exploded-aar/com.doomonafireball.betterpickers/library/1.5.5/res/layout/calendar_year_label_text_view.xml -->

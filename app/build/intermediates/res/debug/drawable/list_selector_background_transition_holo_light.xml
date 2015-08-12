@@ -17,4 +17,4 @@
 <transition xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:drawable="@drawable/list_pressed_holo_light"  />
     <item android:drawable="@drawable/list_longpressed_holo_light"  />
-</transition><!-- From: file:/home/fchauveau/dev/workspace/android-betterpickers/library/src/main/res/drawable/list_selector_background_transition_holo_light.xml --><!-- From: file:/D:/notufy/app/build/intermediates/exploded-aar/com.doomonafireball.betterpickers/library/1.5.5/res/drawable/list_selector_background_transition_holo_light.xml -->
+</transition><!-- From: file:/home/fchauveau/dev/workspace/android-betterpickers/library/src/main/res/drawable/list_selector_background_transition_holo_light.xml --><!-- From: file:/C:/Users/pranav%20vij/Documents/notufy/notufy/app/build/intermediates/exploded-aar/com.doomonafireball.betterpickers/library/1.5.5/res/drawable/list_selector_background_transition_holo_light.xml -->

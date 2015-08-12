@@ -24,18 +24,6 @@
         </RelativeLayout>
 
 
-
-
-    <include
-        android:id="@+id/screen_default_toolbar"
-        layout="@layout/tool_bar"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
-
-
-
-
-
 </RelativeLayout>
     <fragment
         android:id="@+id/fragment_navigation_drawer"
@@ -45,4 +33,4 @@
         android:name="notufy.thapar.com.notufy.Fragments.NavigationDrawerFragment"
         android:layout_gravity="start"
         />
-</android.support.v4.widget.DrawerLayout><!-- From: file:/D:/notufy/app/src/main/res/layout/activity_logined_.xml -->
+</android.support.v4.widget.DrawerLayout><!-- From: file:/C:/Users/pranav%20vij/Documents/notufy/notufy/app/src/main/res/layout/activity_logined_.xml -->

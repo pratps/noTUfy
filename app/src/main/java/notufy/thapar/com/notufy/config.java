@@ -55,8 +55,8 @@ public class config {
     SharedPreferences personal_info;
     SharedPreferences.Editor personal_info_editor;
 
-    public static String URL="http://notufy.byethost7.com/app";
-    public static String DOWNLOAD_URL="http://notufy.byet" +
+    public static String URL="http://notufy.com/app";
+    public static String DOWNLOAD_URL="http://notufy.com" +
             "host7.com";
     public config(Context context)
     {

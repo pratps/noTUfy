@@ -23,4 +23,4 @@
           android:drawable="@drawable/spinner_focused_holo_light" />
     <item android:drawable="@drawable/spinner_default_holo_light" />
 </selector>
-<!-- From: file:/home/fchauveau/dev/workspace/android-betterpickers/library/src/main/res/drawable/spinner_background_holo_light.xml --><!-- From: file:/D:/notufy/app/build/intermediates/exploded-aar/com.doomonafireball.betterpickers/library/1.5.5/res/drawable/spinner_background_holo_light.xml -->
+<!-- From: file:/home/fchauveau/dev/workspace/android-betterpickers/library/src/main/res/drawable/spinner_background_holo_light.xml --><!-- From: file:/C:/Users/pranav%20vij/Documents/notufy/notufy/app/build/intermediates/exploded-aar/com.doomonafireball.betterpickers/library/1.5.5/res/drawable/spinner_background_holo_light.xml -->

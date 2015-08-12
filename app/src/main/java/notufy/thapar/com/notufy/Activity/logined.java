@@ -24,37 +24,21 @@ import notufy.thapar.com.notufy.config;
 import notufy.thapar.com.notufy.dataBase.dataBase;
 
 public class logined extends ActionBarActivity {
-    public static Toolbar mToolBar;
-    public static RelativeLayout main_content;
-    String LOGIN_URL="";
+   public  RelativeLayout main_content;
     static public Context mContext;
+    HomeFragment homeFragment;
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(getLayoutResourceIdentifier());
-        //loadComponents();
-        //loadInfoView();
-        //initializeToolBar();
-
-        mToolBar=(Toolbar)findViewById(R.id.screen_default_toolbar);
-        setSupportActionBar(mToolBar);
-        getSupportActionBar().setDisplayShowHomeEnabled(true);
-        mContext=this;
-
-        main_content=(RelativeLayout)findViewById(R.id.main_content);
-
-        NavigationDrawerFragment drawerFragment=(NavigationDrawerFragment)getSupportFragmentManager().findFragmentById(R.id.fragment_navigation_drawer);
-        drawerFragment.setUp(getSupportFragmentManager(),R.id.fragment_navigation_drawer,(DrawerLayout)findViewById(R.id.drawer_layout),mToolBar);
-
-
+        if(homeFragment==null){
+            homeFragment=HomeFragment.newInstance();
+        }
         if (savedInstanceState == null) {
             getSupportFragmentManager().beginTransaction()
-                    .add(R.id.main_content, HomeFragment.newInstance(),"fragment_home").commit();
+                    .add(R.id.main_content, homeFragment,"fragment_home").commit();
         }
-
-
-
-        dataBase db=new dataBase(getApplication());
-        //loadfloatingButtons();
+        mContext=this;
+        main_content=(RelativeLayout)findViewById(R.id.main_content);
     }
 
     protected int getLayoutResourceIdentifier() {
@@ -100,5 +84,18 @@ public class logined extends ActionBarActivity {
             }
         });
         build.show();
+    }
+    public void setUpNavigationDrawer(Toolbar mToolBar){
+        setSupportActionBar(mToolBar);
+        NavigationDrawerFragment drawerFragment=(NavigationDrawerFragment)getSupportFragmentManager().findFragmentById(R.id.fragment_navigation_drawer);
+        drawerFragment.setUp(getSupportFragmentManager(),R.id.fragment_navigation_drawer,(DrawerLayout)findViewById(R.id.drawer_layout),mToolBar);
+    }
+
+    public HomeFragment getHomeFragment() {
+        return homeFragment;
+    }
+
+    public  RelativeLayout getMain_content() {
+        return main_content;
     }
 }
