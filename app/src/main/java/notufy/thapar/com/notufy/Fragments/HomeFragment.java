@@ -17,6 +17,8 @@ import android.view.ViewGroup;
 import android.view.ViewTreeObserver;
 import android.view.animation.AccelerateInterpolator;
 import android.view.animation.DecelerateInterpolator;
+import android.widget.FrameLayout;
+import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 
 
@@ -42,23 +44,21 @@ public class HomeFragment extends Fragment {
     public static View faketoolbar;
     HomePagerAdapter adapter;
     private int scrolledDistance = 0;
-    private static final int HIDE_THRESHOLD = 20;
     SlidingTabLayout tabs;
-    private boolean controlsVisible = true;
     CharSequence Titles[]={"Teachers","Societies","Hostel"};
     int Numboftabs =3;
     FloatingActionsMenu menu;
     int ToolbarHeight=0;
     boolean animationdelay=true;
-    RelativeLayout collapsablecontainer;
-    RelativeLayout homecontentmain;
+    LinearLayout collapsablecontainer;
+    FrameLayout homecontentmain;
     public static HomeFragment newInstance() {
         return new HomeFragment();
     }
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         v = inflater.inflate(R.layout.fragment_home, container, false);
-        homecontentmain=(RelativeLayout)v.findViewById(R.id.fragment_home_content_main);
-        collapsablecontainer=(RelativeLayout)v.findViewById(R.id.collapsetoolbar);
+        homecontentmain=(FrameLayout)v.findViewById(R.id.fragment_home_content_main);
+        collapsablecontainer=(LinearLayout)v.findViewById(R.id.collapsetoolbar);
         adapter =  new HomePagerAdapter(getActivity().getSupportFragmentManager(),Titles,Numboftabs);
         mToolBar=(Toolbar)v.findViewById(R.id.screen_default_toolbar);
         menu=(FloatingActionsMenu)v.findViewById(R.id.menu);
@@ -170,29 +170,8 @@ public class HomeFragment extends Fragment {
     public void onActivityCreated(Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
     }
-//
-//    @TargetApi(Build.VERSION_CODES.JELLY_BEAN)
-//    public  void animateHeight(int dy) {
-//        scrolledDistance+=dy;
-//        if (collapsablecontainer!=null) {
-//            if (scrolledDistance > ToolbarHeight) {
-//                Log.d("distance","this is crazy"+ToolbarHeight);
-//            }
-//            else {
-//                if (scrolledDistance > HIDE_THRESHOLD && controlsVisible) {
-//                        collapsablecontainer.animate().translationY(-mToolBar.getHeight()).setInterpolator(new AccelerateInterpolator(2));
-//                        controlsVisible = false;
-//                        scrolledDistance = 0;
-//                    } else if (scrolledDistance < -HIDE_THRESHOLD && !controlsVisible) {
-//                        collapsablecontainer.animate().translationY(0).setInterpolator(new DecelerateInterpolator(2));
-//
-////                        ViewGroup.LayoutParams params=((logined)getActivity()).getMain_content().getLayoutParams();
-////                        params.height-=mToolBar.getHeight();
-////                        ((logined)getActivity()).getMain_content().setLayoutParams(params);
-//                        controlsVisible = true;
-//                        scrolledDistance = 0;
-//                    }
-//            }
-//        }
-//    }
+
+    public int getToolbarHeight() {
+        return ToolbarHeight;
+    }
 }

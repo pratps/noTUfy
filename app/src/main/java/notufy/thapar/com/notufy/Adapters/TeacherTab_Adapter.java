@@ -60,36 +60,44 @@ import notufy.thapar.com.notufy.dataBase.dataBase;
 public class TeacherTab_Adapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
     public static List<teacher_message> mListItemsCard=null;
     int previousPosition=0;
-
+    private static final int VIEW_TYPE_HEADER = 2;
+    private static final int VIEW_TYPE_ITEM = 0;
+    private static final int LOAD_MORE=1;
     private static String file_folder="/noTUfy/Files";
     private static String extDir=Environment.getExternalStorageDirectory().getPath().toString();
     private static String server_file_download="/download.php";
     ColorGenerator generator = ColorGenerator.MATERIAL;
     Boolean no_more_message_flag=false;
-
+    View mHeader;
     config conf;
     Context mContext;
-    public TeacherTab_Adapter(List<teacher_message> listItemsCard,Context context) {
+    public TeacherTab_Adapter(List<teacher_message> listItemsCard,Context context,View HeaderView) {
         mListItemsCard = listItemsCard;
         String root=extDir+file_folder;
         mContext=context;
         File mydir=new File(root);
+        mHeader=HeaderView;
         mydir.mkdirs();
         conf=new config(mContext);
     }
 
        public int getItemViewType(int position) {
-        if(position==mListItemsCard.size()) {
-
-            return 1;
+        if(position==mListItemsCard.size()+1) {
+            return LOAD_MORE;
+        }
+        else if(position==0){
+            return VIEW_TYPE_HEADER;
         }
         else
-            return 0;
+            return VIEW_TYPE_ITEM;
     }
 
     public RecyclerView.ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-        if(viewType==0)
+        if(viewType==VIEW_TYPE_ITEM)
             return new ViewHolder(LayoutInflater.from(parent.getContext()).inflate(R.layout.layout_teacher, parent, false));
+        else if(viewType==VIEW_TYPE_HEADER){
+            return new HeaderViewHolder(mHeader);
+        }
         else {
             return new More(LayoutInflater.from(parent.getContext()).inflate(R.layout.layout_more, parent, false));
         }
@@ -99,10 +107,9 @@ public class TeacherTab_Adapter extends RecyclerView.Adapter<RecyclerView.ViewHo
         if(main_holder instanceof ViewHolder) {
             ViewHolder holder=(ViewHolder)main_holder;
             holder.attachment.setVisibility(View.VISIBLE);
-            final teacher_message itemCardView = mListItemsCard.get(position);
+            final teacher_message itemCardView = mListItemsCard.get(position-1);
             Log.e("onBind", itemCardView.getSender_user_name() + itemCardView.getInfo() + itemCardView.getFile_name().length());
             holder.itemView.setTag(itemCardView);
-
             holder.teacher_name.setText(itemCardView.getSender_user_name());
             holder.datetime.setText(itemCardView.getDatetime());
             holder.info.setText(itemCardView.getInfo());
@@ -137,6 +144,9 @@ public class TeacherTab_Adapter extends RecyclerView.Adapter<RecyclerView.ViewHo
             holder.file_size.setText(itemCardView.getFile_size());
 
 
+
+        }
+        else if(main_holder instanceof HeaderViewHolder){
 
         }
         else{
@@ -292,7 +302,10 @@ public class TeacherTab_Adapter extends RecyclerView.Adapter<RecyclerView.ViewHo
     }
 
     public int getItemCount() {
-        return mListItemsCard.size()+1;
+        if(mHeader==null){
+            return mListItemsCard.size()+1;
+        }
+        return mListItemsCard.size()+2;
     }
 
 
@@ -373,7 +386,6 @@ public class TeacherTab_Adapter extends RecyclerView.Adapter<RecyclerView.ViewHo
             }
         }
         void downloadFile(){
-
             setIsRecyclable(false);
             final dataBase db=new dataBase(logined.mContext);
             config conf=new config(logined.mContext);
@@ -385,10 +397,11 @@ public class TeacherTab_Adapter extends RecyclerView.Adapter<RecyclerView.ViewHo
                         .progressBar(progressBar)
                         .progress(new ProgressCallback() {
                             public void onProgress(long downloaded, long total) {
-
                                 Log.e("File download", "" + downloaded + " / " + total);
                                 int x=(int)(downloaded/total*100);
                                 mListItemsCard.get(position).setProgress(x);
+                                Log.d("this is nonsense",""+x);
+                                //progressBar.setProgress(x);
                             }
                         })
                         .setBodyParameter("code", item.getSender_user_code())
@@ -426,5 +439,9 @@ public class TeacherTab_Adapter extends RecyclerView.Adapter<RecyclerView.ViewHo
         }
     }
 
-
+    static class HeaderViewHolder extends RecyclerView.ViewHolder {
+        public HeaderViewHolder(View view) {
+            super(view);
+        }
+    }
 }

@@ -3,8 +3,8 @@
         xmlns:tools="http://schemas.android.com/tools"
         android:background="@android:color/transparent"
         android:layout_width="match_parent"
-    android:id="@+id/swipeteachermessage"
-        android:layout_height="match_parent" >
+        android:id="@+id/swipeteachermessage"
+        android:layout_height="wrap_content" >
 
     <com.github.ksoichiro.android.observablescrollview.ObservableRecyclerView
         android:id="@+id/messagelist"

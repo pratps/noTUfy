@@ -1,0 +1,154 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:notufy="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@color/primarycolor"
+    tools:context="notufy.myapp.SendSocietyMessage">
+    <android.support.v7.widget.Toolbar
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="@color/theme_dialer_primary"
+        android:elevation="4dp"
+        android:id="@+id/society_toolbar"
+        app:theme="@style/Theme.AppCompat">
+        <ImageView
+            android:layout_marginRight="10dp"
+            android:layout_gravity="right"
+            android:id="@+id/attach_image"
+            android:src="@drawable/ic_action_attachment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </android.support.v7.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/imageupload"
+                android:src="@drawable/ccs"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:scaleType="centerCrop" />
+
+            <com.rengwuxian.materialedittext.MaterialAutoCompleteTextView
+                android:id="@+id/heading_society"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="30dp"
+                android:hint="Heading"
+                android:inputType="text"
+                android:padding="10dp"
+                android:textColor="#ffffff"
+                android:textColorHint="#eeeeee"
+                notufy:met_baseColor="#ffffff"
+                notufy:met_primaryColor="#EF9A9A"
+                notufy:met_textColor="#ffffff"
+                notufy:met_textColorHint="#eeeeee" />
+
+            <com.rengwuxian.materialedittext.MaterialAutoCompleteTextView
+                android:id="@+id/input_society_msg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="10dp"
+                android:hint="Message"
+                android:inputType="text"
+                android:padding="10dp"
+                android:textColor="#ffffff"
+                android:textColorHint="#eeeeee"
+                notufy:met_baseColor="#ffffff"
+                notufy:met_primaryColor="#EF9A9A"
+                notufy:met_textColor="#ffffff"
+                notufy:met_textColorHint="#eeeeee" />
+
+            <RelativeLayout
+                android:id="@+id/relativeLayout2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/input_society_msg"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/set_date"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:contentDescription="Set Date/Time"
+                    android:src="@drawable/calendar" />
+                <TextView
+                    android:paddingTop="10dp"
+                    android:id="@+id/settext_date"
+                    android:text="Date"
+                    android:gravity="center_horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_centerInParent="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/set_time"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:contentDescription="Set Time"
+                    android:src="@drawable/clock" />
+                <TextView
+                    android:paddingTop="10dp"
+                    android:gravity="center_horizontal"
+                    android:id="@+id/settext_time"
+                    android:text="Time"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_margin="10dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/set_venue"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:contentDescription="Set Venue"
+                    android:src="@drawable/map" />
+                <TextView
+                    android:paddingTop="10dp"
+                    android:id="@+id/settext_venue"
+                    android:text="Venue"
+                    android:gravity="center_horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout><!-- From: file:/C:/Users/pranav%20vij/Documents/notufy/notufy/app/src/main/res/layout/activity_send_society_message.xml -->

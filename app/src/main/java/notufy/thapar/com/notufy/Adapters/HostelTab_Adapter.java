@@ -37,29 +37,36 @@ import notufy.thapar.com.notufy.dataBase.dataBase;
 public class HostelTab_Adapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
     public static List<hostel_message> mListItemsCard;
     int previousPosition=0;
+    private static final int VIEW_TYPE_HEADER = 2;
+    private static final int VIEW_TYPE_ITEM = 0;
+    private static final int LOAD_MORE=1;
     ColorGenerator generator = ColorGenerator.MATERIAL;
     Boolean no_more_message_flag=false;
     config conf;
-
-    public HostelTab_Adapter(List<hostel_message> listItemsCard) {
+    View mHeader;
+    public HostelTab_Adapter(List<hostel_message> listItemsCard,View HeaderView) {
         mListItemsCard = listItemsCard;
         conf=new config(logined.mContext);
+        mHeader=HeaderView;
     }
-
     public int getItemViewType(int position) {
-        if(position==mListItemsCard.size()) {
-
-            return 1;
+        if(position==mListItemsCard.size()+1) {
+            return LOAD_MORE;
+        }
+        else if(position==0){
+            return VIEW_TYPE_HEADER;
         }
         else
-            return 0;
+            return VIEW_TYPE_ITEM;
     }
-
 
 
     public RecyclerView.ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         if(viewType==0)
             return new ViewHolder(LayoutInflater.from(parent.getContext()).inflate(R.layout.layout_hostel, parent, false));
+        else if(viewType==VIEW_TYPE_HEADER){
+            return new HeaderViewHolder(mHeader);
+        }
         else {
             return new More(LayoutInflater.from(parent.getContext()).inflate(R.layout.layout_more, parent, false));
         }
@@ -68,12 +75,15 @@ public class HostelTab_Adapter extends RecyclerView.Adapter<RecyclerView.ViewHol
     public void onBindViewHolder(final RecyclerView.ViewHolder main_holder, int position) {
         if(main_holder instanceof ViewHolder) {
             ViewHolder holder=(ViewHolder)main_holder;
-            final hostel_message itemCardView = mListItemsCard.get(position);
+            final hostel_message itemCardView = mListItemsCard.get(position-1);
             holder.itemView.setTag(itemCardView);
             holder.heading.setText(itemCardView.getHeading());
             holder.datetime.setText(itemCardView.getDatetime());
             holder.info.setText(itemCardView.getInfo());
             holder.heading.setTextColor(generator.getColor(itemCardView.getHeading() + itemCardView.getInfo()));
+        }
+        else if(main_holder instanceof HeaderViewHolder){
+
         }
         else{
             final More holder=(More)main_holder;
@@ -253,5 +263,9 @@ public class HostelTab_Adapter extends RecyclerView.Adapter<RecyclerView.ViewHol
         }
     }
 
-
+    static class HeaderViewHolder extends RecyclerView.ViewHolder {
+        public HeaderViewHolder(View view) {
+            super(view);
+        }
+    }
 }

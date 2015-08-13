@@ -9,15 +9,20 @@ import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.app.ActionBar;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.LinearLayout;
 import android.widget.Toast;
 
 import com.github.ksoichiro.android.observablescrollview.ObservableRecyclerView;
 import com.github.ksoichiro.android.observablescrollview.ObservableScrollViewCallbacks;
 import com.github.ksoichiro.android.observablescrollview.ScrollState;
+import com.github.ksoichiro.android.observablescrollview.ScrollUtils;
+import com.nineoldandroids.view.ViewHelper;
+import com.nineoldandroids.view.ViewPropertyAnimator;
 
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -37,9 +42,13 @@ import notufy.thapar.com.notufy.dataBase.dataBase;
 
 public class hostel_messages extends Fragment implements ObservableScrollViewCallbacks,SwipeRefreshLayout.OnRefreshListener{
     private ObservableRecyclerView mRecyclerView;
+    private int mBaseTranslationY;
     private SwipeRefreshLayout mSwipeRefreshLayout;
     HostelTab_Adapter messageadapter;
     String server_file="/hostel_sync.php";
+    Toolbar mToolBar;
+    LinearLayout mHeaderView;
+
     public static hostel_messages newInstance() {
         hostel_messages fragment = new hostel_messages();
         return fragment;
@@ -50,6 +59,7 @@ public class hostel_messages extends Fragment implements ObservableScrollViewCal
         mSwipeRefreshLayout=(SwipeRefreshLayout)v.findViewById(R.id.swipehostelmessage);
         mSwipeRefreshLayout.setOnRefreshListener(this);
         mRecyclerView.setScrollViewCallbacks(this);
+        mSwipeRefreshLayout.setProgressViewOffset(false,0,80);
         mSwipeRefreshLayout.setColorSchemeColors(Color.parseColor("#F44336"), Color.parseColor("#29B6F6"),Color.parseColor("#4CAF50"));
         loadInfoView();
         return v;
@@ -64,8 +74,8 @@ public class hostel_messages extends Fragment implements ObservableScrollViewCal
         //insert();
         Number x=-1;
         mListItemsCard=new dataBase(getActivity()).get_hostel_messages(x.longValue());
-
-        messageadapter=new HostelTab_Adapter(mListItemsCard);
+        View headerView = LayoutInflater.from(getActivity()).inflate(R.layout.recycler_header, null);
+        messageadapter=new HostelTab_Adapter(mListItemsCard,headerView);
         mRecyclerView.setAdapter(messageadapter);
     }
     public void insert()
@@ -204,31 +214,64 @@ public class hostel_messages extends Fragment implements ObservableScrollViewCal
         mRecyclerView.scrollToPosition(0);
     }
 
-    /// Observable ScrollView RecyclerCallbacks
     @Override
-    public void onScrollChanged(int i, boolean b, boolean b1) {
-
+    public void onScrollChanged(int scrollY, boolean firstScroll, boolean dragging) {
+        mToolBar=((logined)getActivity()).getHomeFragment().mToolBar;
+        mHeaderView=((logined)getActivity()).getHomeFragment().collapsablecontainer;
+        if (dragging) {
+            int toolbarHeight = mToolBar.getHeight();
+            float currentHeaderTranslationY = ViewHelper.getTranslationY(mHeaderView);
+            if (firstScroll) {
+                if (-toolbarHeight < currentHeaderTranslationY) {
+                    mBaseTranslationY = scrollY;
+                }
+            }
+            float headerTranslationY = ScrollUtils.getFloat(-(scrollY - mBaseTranslationY), -toolbarHeight, 0);
+            ViewPropertyAnimator.animate(mHeaderView).cancel();
+            ViewHelper.setTranslationY(mHeaderView, headerTranslationY);
+        }
     }
 
     @Override
     public void onDownMotionEvent() {
-
     }
 
     @Override
     public void onUpOrCancelMotionEvent(ScrollState scrollState) {
-        ActionBar ab = ((logined)getActivity()).getSupportActionBar();
-        if (ab == null) {
-            return;
+        mBaseTranslationY = 0;
+        mHeaderView=((logined)getActivity()).getHomeFragment().collapsablecontainer;
+        mToolBar=((logined)getActivity()).getHomeFragment().mToolBar;
+        int toolbarHeight = mToolBar.getHeight();
+        int scrollY = mRecyclerView.getCurrentScrollY();
+        if (scrollState == ScrollState.DOWN) {
+            showToolbar();
+        } else if (scrollState == ScrollState.UP) {
+            if (toolbarHeight <= scrollY) {
+                hideToolbar();
+            } else {
+                showToolbar();
+            }
+        } else {
+            // Toolbar is moving but doesn't know which to move:
+            // you can change this to hideToolbar()
+            showToolbar();
         }
-        if (scrollState == ScrollState.UP) {
-            if (ab.isShowing()) {
-                ab.hide();
-            }
-        } else if (scrollState == ScrollState.DOWN) {
-            if (!ab.isShowing()) {
-                ab.show();
-            }
+    }
+
+    private void showToolbar() {
+        float headerTranslationY = ViewHelper.getTranslationY(mHeaderView);
+        if (headerTranslationY != 0) {
+            ViewPropertyAnimator.animate(mHeaderView).cancel();
+            ViewPropertyAnimator.animate(mHeaderView).translationY(0).setDuration(200).start();
+        }
+    }
+
+    private void hideToolbar() {
+        float headerTranslationY = ViewHelper.getTranslationY(mHeaderView);
+        int toolbarHeight = mToolBar.getHeight();
+        if (headerTranslationY != -toolbarHeight) {
+            ViewPropertyAnimator.animate(mHeaderView).cancel();
+            ViewPropertyAnimator.animate(mHeaderView).translationY(-toolbarHeight).setDuration(200).start();
         }
     }
     }

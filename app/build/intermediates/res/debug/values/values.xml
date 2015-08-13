@@ -1637,6 +1637,13 @@ available. Please contact the developer for assistance.</string>
     <style name="CardView.Light">
         <item name="cardBackgroundColor">@color/cardview_light_background</item>
     </style>
+    <!-- From: file:/C:/Users/pranav%20vij/Documents/notufy/notufy/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="MyCustomBetterPickerTheme">
+        <item name="bpTextColor">@color/primarycolor</item>
+         <item name="bpDividerColor">@color/primarylightcolor</item>
+        <item name="bpKeyboardIndicatorColor">@color/theme_dialer_primary</item>
+    </style>
     <!-- From: file:/C:/Users/pranav%20vij/Documents/notufy/notufy/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <style name="Platform.AppCompat" parent="android:Theme">
@@ -1954,6 +1961,13 @@ available. Please contact the developer for assistance.</string>
     <style name="ThemeOverlay.AppCompat.Dark" parent="Base.ThemeOverlay.AppCompat.Dark"/>
     <style name="ThemeOverlay.AppCompat.Dark.ActionBar" parent="Base.ThemeOverlay.AppCompat.Dark.ActionBar"/>
     <style name="ThemeOverlay.AppCompat.Light" parent="Base.ThemeOverlay.AppCompat.Light"/>
+    <!-- From: file:/C:/Users/pranav%20vij/Documents/notufy/notufy/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="Toolbar" parent="Theme.AppCompat">
+        <item name="colorPrimary">@color/primarycolor</item>
+        <item name="colorPrimaryDark">@color/primarycolorDark</item>
+        <item name="colorAccent">@color/accent_material_dark</item>
+    </style>
     <!-- From: file:/C:/Users/pranav%20vij/Documents/notufy/notufy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/7.0.0/res/values/wallet_styles.xml -->
     <eat-comment/>
     <style name="WalletFragmentDefaultButtonTextAppearance">

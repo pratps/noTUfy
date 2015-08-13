@@ -38,7 +38,6 @@
         <activity
             android:name=".Activity.logined"
             android:label="@string/title_activity_logined_" >
-
         </activity>
         <activity
             android:name=".Activity.SendMessageTeacher"
@@ -59,12 +58,15 @@
         <activity
             android:name=".Activity.splash"
             android:label="@string/title_activity_splash" >
+        </activity>
+        <activity
+            android:name=".Activity.Send_SocietyActivity"
+            android:label="@string/title_activity_splash" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
         </activity>
         <activity
             android:name=".Activity.SendTeacher"

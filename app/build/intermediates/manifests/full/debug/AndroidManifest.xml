@@ -64,6 +64,10 @@
         <activity
             android:name="notufy.thapar.com.notufy.Activity.splash"
             android:label="@string/title_activity_splash" >
+        </activity>
+        <activity
+            android:name="notufy.thapar.com.notufy.Activity.Send_SocietyActivity"
+            android:label="@string/title_activity_splash" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

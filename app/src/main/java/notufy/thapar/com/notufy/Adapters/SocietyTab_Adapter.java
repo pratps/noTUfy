@@ -47,6 +47,9 @@ import notufy.thapar.com.notufy.dataBase.dataBase;
 
 public class SocietyTab_Adapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
     public static List<society_message> mListItemsCard;
+    private static final int VIEW_TYPE_HEADER = 2;
+    private static final int VIEW_TYPE_ITEM = 0;
+    private static final int LOAD_MORE=1;
     private String folder="/noTUfy/Event_images";
     private String icon_folder="/noTUfy/Society_icons";
     private String extDir=Environment.getExternalStorageDirectory().getPath().toString();
@@ -59,11 +62,12 @@ public class SocietyTab_Adapter extends RecyclerView.Adapter<RecyclerView.ViewHo
     private int downloadFlag=0,previousPosition=0;
 
 
-
-    public SocietyTab_Adapter(List<society_message> listItemsCard,Context context) {
+    View mHeader;
+    public SocietyTab_Adapter(List<society_message> listItemsCard,Context context,View HeaderView) {
         this.mListItemsCard = listItemsCard;
         this.context=context;
         conf=new config(logined.mContext);
+        mHeader=HeaderView;
         int padding_in_dp = 60;  // 6 dps
         final float scale = context.getResources().getDisplayMetrics().density;
         SocietyTab_Adapter.icon_width= (int) (padding_in_dp * scale + 0.5f);
@@ -72,20 +76,23 @@ public class SocietyTab_Adapter extends RecyclerView.Adapter<RecyclerView.ViewHo
 
     }
 
-
     public int getItemViewType(int position) {
-        if(position==mListItemsCard.size()) {
-
-            return 1;
+        if(position==mListItemsCard.size()+1) {
+            return LOAD_MORE;
+        }
+        else if(position==0){
+            return VIEW_TYPE_HEADER;
         }
         else
-            return 0;
+            return VIEW_TYPE_ITEM;
     }
-
 
     public RecyclerView.ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         if(viewType==0)
             return new ViewHolder(LayoutInflater.from(parent.getContext()).inflate(R.layout.layout_society, parent, false));
+        else if(viewType==VIEW_TYPE_HEADER){
+            return new HeaderViewHolder(mHeader);
+        }
         else {
             return new More(LayoutInflater.from(parent.getContext()).inflate(R.layout.layout_more, parent, false));
         }
@@ -105,7 +112,7 @@ public class SocietyTab_Adapter extends RecyclerView.Adapter<RecyclerView.ViewHo
             holder.date_rel.setVisibility(View.VISIBLE);
             holder.event_time.setVisibility(View.VISIBLE);
             holder.event_venue.setVisibility(View.VISIBLE);
-            final society_message itemCardView = mListItemsCard.get(position);
+            final society_message itemCardView = mListItemsCard.get(position-1);
             holder.itemView.setTag(itemCardView);
             Log.e("onbind", itemCardView.getHeading());
 
@@ -168,6 +175,9 @@ public class SocietyTab_Adapter extends RecyclerView.Adapter<RecyclerView.ViewHo
                     downloadImage(holder, itemCardView, position);
                 }
             });
+        }
+        else if(main_holder instanceof HeaderViewHolder){
+
         }
         else{
             final More holder=(More)main_holder;
@@ -601,6 +611,11 @@ public class SocietyTab_Adapter extends RecyclerView.Adapter<RecyclerView.ViewHo
             e.printStackTrace();
         } catch (IOException e) {
             e.printStackTrace();
+        }
+    }
+    static class HeaderViewHolder extends RecyclerView.ViewHolder {
+        public HeaderViewHolder(View view) {
+            super(view);
         }
     }
 }
